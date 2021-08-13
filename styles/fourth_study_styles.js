@@ -45,8 +45,6 @@ export const fourthStudy = {
 
     },
     image: {
-        marginTop: '40px',
-        marginBottom: '100px',
         boxShadow: '0px 8px 20px #ced4da',
         borderRadius: '7px'
     },
@@ -63,5 +61,8 @@ export const fourthStudy = {
         height: '100 %',
         flex: ' 0 0 auto',
         paddingTop: '10px'
+    },
+    mainContent: {
+        padding: '60px'
     }
 }

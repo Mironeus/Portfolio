@@ -47,7 +47,7 @@ export default function Navbar() {
                             <StyledNavButton>
                                 <Link href='/contacts'>
                                     <a className={router.pathname == '/contacts' ? 'activeLink' : ''}>
-                                        CONTACT ME
+                                        CONTACTS
                                     </a>
                                 </Link>
                             </StyledNavButton>

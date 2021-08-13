@@ -17,7 +17,7 @@ export default function Home() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item lg={5} >
+                <Grid item lg={5} xs={6} sm={6} >
                     <Image
                         className='homeAvatar'
                         src="/images/portret.jpg"
@@ -27,7 +27,7 @@ export default function Home() {
                     />
 
                 </Grid>
-                <Grid item lg={6} style={homeStyle.textBox}>
+                <Grid item lg={6} sm={6} style={homeStyle.textBox}>
                     <div style={homeStyle.title}>
                         PORTFOLIO
                     </div>

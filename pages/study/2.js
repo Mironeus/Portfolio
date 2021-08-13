@@ -24,21 +24,14 @@ export default function SecondPage() {
                     </footer>
                 </Grid>
             </Grid>
+
             <Grid
                 container
                 justifyContent='center'
                 alignItems='center'
             >
                 <Grid item md={6}>
-                    <Grid item md={7}>
-                        <div style={secondStudy.title}>STUDY</div>
-                        <blockquote style={secondStudy.quote}>
-                            <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
-                            <cite>-Джон Локк</cite>
-                        </blockquote>
-
-
-
+                    <main style={secondStudy.mainContent}>
                         <div style={secondStudy.subTitle}>
                             FIGMA
                         </div>
@@ -48,9 +41,9 @@ export default function SecondPage() {
                             <div style={secondStudy.subTextTitle}>DANGER!</div>
                             МАКЕТ ЭТОГО ПРОЕКТА СОЗДАН НА <span style={secondStudy.secondSpan}>FIGMA</span>.
                         </div>
-                    </Grid>
+                    </main>
                 </Grid>
-                <Grid item md={5}>
+                <Grid item md={6}>
                     <Image
                         src="/images/figma_project.jpg"
                         height={580}

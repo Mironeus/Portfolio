@@ -14,7 +14,7 @@ export default function FirstPage() {
                 justifyContent='center'
                 alignItems='flex-end'
             >
-                <Grid item md={12}>
+                <Grid item md={12} >
                     <footer style={firstStudy.footer}>
                         <ProgressBar now={20} animated variant='danger'></ProgressBar>
                         <div style={firstStudy.footerNav}>
@@ -29,23 +29,29 @@ export default function FirstPage() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item md={6}>
-                    <Grid item md={7}>
+
+
+                <Grid item md={5}>
+                    <main style={firstStudy.mainContent}>
                         <div style={firstStudy.title}>STUDY</div>
                         <blockquote style={firstStudy.quote}>
                             <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
                             <cite>-Джон Локк</cite>
                         </blockquote>
-                        <div style={firstStudy.subTitle}>
-                            Немного предыстории.
+                        <div style={firstStudy.textContent}>
+                            <div style={firstStudy.subTitle}>
+                                Немного предыстории.
+                            </div>
+                            <div style={firstStudy.text}>
+                                Мой путь начался с презентаций, на моей текущей работе.<br></br>
+                                Я изучал <span style={firstStudy.firstSpan}>Power Point, Photoshop</span>   и также понял, что <span style={firstStudy.secondSpan}>Типографика</span> - это важный элемент в дизайне. На свои первые презентации я смотрю с улыбкой, но это и есть прогресс, поэтому всё хорошо.
+                            </div>
                         </div>
-                        <div style={firstStudy.text}>
-                            Мой путь начался с презентаций, на моей текущей работе.<br></br>
-                            Я изучал <span style={firstStudy.firstSpan}>Power Point, Photoshop</span>   и также понял, что <span style={firstStudy.secondSpan}>Типографика</span> - это важный элемент в дизайне. На свои первые презентации я смотрю с улыбкой, но это и есть прогресс, поэтому всё хорошо.
-                        </div>
-                    </Grid>
+                    </main>
                 </Grid>
-                <Grid item md={5}>
+
+                <Grid item md={6}>
+
                     <div style={firstStudy.carousel}>
                         <Carousel
                             variant='dark'
@@ -249,6 +255,7 @@ export default function FirstPage() {
 
                     </div >
                 </Grid>
+
             </Grid>
 
         </div>

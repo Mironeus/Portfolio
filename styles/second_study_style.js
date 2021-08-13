@@ -7,14 +7,11 @@ export const secondStudy = {
         padding: '15px'
     },
     title: {
-        fontSize: '7vw',
+        fontSize: '2vw',
         fontWeight: '100',
         color: '#ED1C24',
     },
-    quote: {
-        paddingLeft: '60px',
-        paddingBottom: '50px'
-    },
+
     subTitle: {
         fontSize: '35px',
         paddingBottom: '15px'
@@ -67,5 +64,8 @@ export const secondStudy = {
         height: '100 %',
         flex: ' 0 0 auto',
         paddingTop: '10px'
+    },
+    mainContent: {
+        padding: '40px'
     }
 }

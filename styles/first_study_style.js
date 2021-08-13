@@ -11,10 +11,6 @@ export const firstStudy = {
         fontWeight: '100',
         color: '#ED1C24',
     },
-    quote: {
-        paddingLeft: '60px',
-        paddingBottom: '50px'
-    },
     subTitle: {
         fontSize: '35px',
         paddingBottom: '15px',
@@ -37,7 +33,6 @@ export const firstStudy = {
         boxShadow: '0px 8px 20px #6c757d',
         borderRadius: '10px',
         border: '10px solid #ffffff',
-        marginTop: '90px'
     },
     carouselText: {
         display: 'flex',
@@ -65,5 +60,8 @@ export const firstStudy = {
         height: '100 %',
         flex: ' 0 0 auto',
         paddingTop: '10px'
+    },
+    mainContent: {
+        padding: '40px'
     }
 }

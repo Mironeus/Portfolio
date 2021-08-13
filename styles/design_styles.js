@@ -23,9 +23,6 @@ export const DesignStyles = {
     },
     carousel: {
         boxShadow: '0px 8px 20px #6c757d',
-        borderRadius: '15px',
-        border: '10px solid #ffffff',
-        marginTop: '-30px'
     },
     bottomText: {
         textAlign: 'center',

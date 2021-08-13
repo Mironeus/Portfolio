@@ -28,10 +28,6 @@ a {
 .homeAvatar{
   border-radius: 50%;
 }
-.figmaImage{
-  border-radius: 2%;
-  box-shadow: '0px 8px 20px #6c757d'
-}
 
 .btnGroupActiveLink{
   color:brown;

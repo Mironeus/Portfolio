@@ -6,15 +6,6 @@ export const thirdStudy = {
         paddingTop: '15px',
         padding: '15px'
     },
-    title: {
-        fontSize: '7vw',
-        fontWeight: '100',
-        color: '#ED1C24',
-    },
-    quote: {
-        paddingLeft: '60px',
-        paddingBottom: '25px'
-    },
     subTitle: {
         fontSize: '35px',
         paddingBottom: '15px'
@@ -62,7 +53,7 @@ export const thirdStudy = {
         flex: ' 0 0 auto',
         paddingTop: '10px'
     },
-    content: {
-        marginBottom: '25px'
+    mainContant: {
+        padding: '60px'
     }
 }

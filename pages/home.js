@@ -14,24 +14,20 @@ export default function Home() {
                 container
                 style={homeStyle.gridContainer}
                 direction="row"
-                justifyContent='start'
-                alignItems='start'
-                spacing={4}
+                justifyContent='center'
+                alignItems='center'
             >
-                <Grid item lg={3} >
+                <Grid item lg={5} >
                     <Image
                         className='homeAvatar'
                         src="/images/portret.jpg"
                         height={750}
                         width={720}
                         alt="David Abramov"
-                        layout="responsive"
-
                     />
-                    <div style={homeStyle.smallText}>Меня зовут Абрамов Давид, и я выбрал свой путь в качестве web разработчика.</div>
 
                 </Grid>
-                <Grid item lg={5} style={homeStyle.textBox}>
+                <Grid item lg={6} style={homeStyle.textBox}>
                     <div style={homeStyle.title}>
                         PORTFOLIO
                     </div>

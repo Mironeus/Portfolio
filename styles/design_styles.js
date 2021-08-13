@@ -1,13 +1,14 @@
 export const DesignStyles = {
     page: {
         paddingTop: '15px',
+        padding: '20px',
         backgroundImage: "url(../images/background_design.jpg)",
         backgroundSize: 'cover',
-        width: '100vw',
         height: '100vh',
     },
     title: {
-        fontSize: '100px',
+        marginTop: '15px',
+        fontSize: '7vw',
         fontWeight: '100',
         color: '#ED1C24',
     },
@@ -29,7 +30,8 @@ export const DesignStyles = {
     bottomText: {
         textAlign: 'center',
         marginTop: '25px',
-        fontSize: '24px',
+        marginBottom: '10px',
+        fontSize: '25px',
         fontWeight: '200'
     }
 }

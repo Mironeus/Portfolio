@@ -2,32 +2,33 @@ export const homeStyle = {
     page: {
         backgroundImage: "url(images/background_home.jpg)",
         backgroundSize: 'cover',
-        width: '100vw',
         height: '100vh',
         paddingTop: '15px',
+        padding: '20px'
+
     },
     text: {
-        fontSize: '30px',
+        color: 'white',
+        fontSize: '20px',
+        padding: '25px',
         fontWeight: '200',
         textAlign: 'left',
+        backgroundColor: 'rgba(51, 51, 51, 0.8)',
+        borderRadius: '7px',
+        marginBottom: '50px'
+
     },
     title: {
-        textAlign: 'left',
-        fontSize: '130px',
+        textAlign: 'center',
+        fontSize: '7vw',
         fontWeight: '100',
-        paddingBottom: '30px'
+        paddingBottom: '20px'
     },
     textBox: {
-        paddingTop: '150px'
+        paddingTop: '20px'
     },
     gridContainer: {
-        paddingTop: '90px',
-        paddingLeft: '110px'
+        paddingTop: '40px',
+
     },
-    smallText: {
-        paddingTop: '20px',
-        textAlign: 'center',
-        fontSize: '17px',
-        fontWeight: '200'
-    }
 }

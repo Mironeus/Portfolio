@@ -2,18 +2,18 @@ export const secondStudy = {
     page: {
         backgroundImage: "url(../images/background_study_2.jpg)",
         backgroundSize: 'cover',
-        width: '100vw',
         height: '100vh',
         paddingTop: '15px',
+        padding: '15px'
     },
     title: {
-        fontSize: '100px',
+        fontSize: '7vw',
         fontWeight: '100',
         color: '#ED1C24',
     },
     quote: {
         paddingLeft: '60px',
-        paddingBottom: '100px'
+        paddingBottom: '50px'
     },
     subTitle: {
         fontSize: '35px',
@@ -47,17 +47,25 @@ export const secondStudy = {
         alignItems: 'center',
         justifyContent: 'center',
         paddingTop: '40px',
-        paddingBottom: '35px',
-
-
+        paddingBottom: '35px'
     },
     image: {
-        boxShadow: '0px 8px 20px #6c757d',
+        boxShadow: '0px 0px 20px #6c757d',
         borderRadius: '2%'
     },
+    footerNav: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop: '10px',
+        paddingBottom: '35px',
+    },
     footer: {
-        position: 'absolute',
-        bottom: '0',
-        width: '100%'
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100 %',
+        flex: ' 0 0 auto',
+        paddingTop: '10px'
     }
 }

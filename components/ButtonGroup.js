@@ -10,7 +10,7 @@ export default function buttonGroup() {
 
     return (
         <div>
-            <ButtonGroup aria-label="First group">
+            <ButtonGroup aria-label="First group" size='sm'>
                 <Button variant={router.pathname == "/study/1" ? 'danger' : 'dark'}> <Link href="/study/1"><a>1</a></Link></Button>
                 <Button variant={router.pathname == "/study/2" ? 'danger' : 'dark'}> <Link href="/study/2"><a>2</a></Link></Button>
                 <Button variant={router.pathname == "/study/3" ? 'danger' : 'dark'}> <Link href="/study/3"><a>3</a></Link></Button>

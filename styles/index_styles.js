@@ -5,17 +5,16 @@ export const Index = {
   page: {
     backgroundImage: "url(images/background_welcome.jpg)",
     backgroundSize: 'cover',
-    width: '100vw',
     height: '100vh',
-    backgroundPosition: 'relative',
+    backgroundPosition: 'center'
   },
   welcome: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: '100px',
+    fontSize: '6vw',
     fontWeight: '150',
-    marginBottom: '0px'
+    marginBottom: '0px',
   },
   logo: {
     display: 'flex',
@@ -24,18 +23,18 @@ export const Index = {
     paddingTop: '30px'
   },
   and: {
-    fontSize: '50px'
+    fontSize: '3vw'
   },
   myName: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: '30px',
+    fontSize: '2vw',
     fontWeight: '300',
     paddingTop: '0px'
   },
   myNameIs: {
-    fontSize: '20px',
+    fontSize: '1.5vw',
     fontWeight: '100',
     textAlign: 'center',
     paddingTop: '0px',
@@ -48,14 +47,14 @@ export const Index = {
     alignItems: 'center',
   },
   footer: {
-    fontSize: '90px',
+    fontSize: '4vw',
     fontWeight: '200',
     textAlign: 'end',
     paddingTop: '100px',
-    paddingRight: '45px'
+    paddingRight: '30px'
   },
   portfolio: {
-    fontSize: '50px'
+    fontSize: '2vw'
   }
 }
 
@@ -68,7 +67,7 @@ export const StyledButton = withStyles({
     fontFamily: " 'Montserrat', sans-serif ",
     fontWeight: '600',
     boxShadow: 'none',
-    fontSize: '30px',
+    fontSize: '1.5vw',
     transition: '1s',
     borderRadius: '12px',
     boxShadow: '0px 2px 2px #DF5B61',

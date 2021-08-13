@@ -2,12 +2,12 @@ export const fourthStudy = {
     page: {
         backgroundImage: "url(../images/background_study_3.jpg)",
         backgroundSize: 'cover',
-        width: '100vw',
         height: '100vh',
         paddingTop: '15px',
+        padding: '15px'
     },
     title: {
-        fontSize: '100px',
+        fontSize: '7vw',
         fontWeight: '100',
         color: '#ED1C24',
     },
@@ -44,24 +44,24 @@ export const fourthStudy = {
         marginBottom: '10px'
 
     },
+    image: {
+        marginTop: '40px',
+        marginBottom: '100px',
+        boxShadow: '0px 8px 20px #ced4da',
+        borderRadius: '7px'
+    },
     footerNav: {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: '40px',
-        paddingBottom: '35px',
-
-
-    },
-    image: {
-        marginBottom: '100px',
-        boxShadow: '0px 8px 20px #6c757d',
-        borderRadius: '2%'
+        paddingTop: '10px',
     },
     footer: {
-        position: 'absolute',
-        bottom: '0',
-        width: '100%'
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100 %',
+        flex: ' 0 0 auto',
+        paddingTop: '10px'
     }
 }

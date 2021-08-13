@@ -11,11 +11,10 @@ export default function Hello() {
         <Image
           src="/images/logo.png" alt="Your Name"
           width={350}
-          height={350
-          }
+          height={350}
         />
       </div>
-      <h1 style={Index.welcome}>HELLO &nbsp;<span style={Index.and}> & </span>&nbsp;WELCOME</h1>
+      <div style={Index.welcome}>HELLO &nbsp;<span style={Index.and}> & </span>&nbsp;WELCOME</div>
       <h4 style={Index.myName}> <span style={Index.myNameIs}>MY NAME IS &nbsp;</span> DAVID ABRAMOV</h4>
       <div style={Index.centerButton}>
         <StyledButton>
@@ -30,7 +29,7 @@ export default function Hello() {
         justifyContent='flex-end'>
         <Grid item={6}>
           <h2 style={Index.footer}> <span style={Index.portfolio}>Portfolio</span>&nbsp;2021</h2>
-          <hr width='120%' align='right' />
+          <hr width='100%' align='right' />
         </Grid>
       </Grid>
 

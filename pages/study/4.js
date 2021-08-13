@@ -9,7 +9,21 @@ export default function SecondPage() {
     return (
         <div style={fourthStudy.page}>
             <Navbar></Navbar>
+            <Grid
+                container
+                justifyContent='center'
+                alignItems='flex-end'
+            >
+                <Grid item md={12}>
+                    <footer style={fourthStudy.footer}>
+                        <ProgressBar now={80} animated variant='danger'></ProgressBar>
+                        <div style={fourthStudy.footerNav}>
+                            <ButtonGroup ></ButtonGroup>
+                        </div>
 
+                    </footer>
+                </Grid>
+            </Grid>
             <Grid
                 container
                 justifyContent='center'
@@ -57,18 +71,10 @@ export default function SecondPage() {
                             height={450}
                             width={640}
                             alt="David Abramov"
-                            layout="responsive"
-
                         />
                     </div >
                 </Grid>
             </Grid>
-            <footer style={fourthStudy.footer} >
-                <div style={fourthStudy.footerNav}>
-                    <ButtonGroup ></ButtonGroup>
-                </div>
-                <ProgressBar variant='danger' animated now={80}></ProgressBar>
-            </footer>
         </div >
     )
 }

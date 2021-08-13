@@ -9,14 +9,28 @@ export default function FirstPage() {
     return (
         <div style={firstStudy.page}>
             <Navbar></Navbar>
+            <Grid
+                container
+                justifyContent='center'
+                alignItems='flex-end'
+            >
+                <Grid item md={12}>
+                    <footer style={firstStudy.footer}>
+                        <ProgressBar now={20} animated variant='danger'></ProgressBar>
+                        <div style={firstStudy.footerNav}>
+                            <ButtonGroup ></ButtonGroup>
+                        </div>
 
+                    </footer>
+                </Grid>
+            </Grid>
             <Grid
                 container
                 justifyContent='center'
                 alignItems='center'
             >
                 <Grid item md={6}>
-                    <Grid item md={8}>
+                    <Grid item md={7}>
                         <div style={firstStudy.title}>STUDY</div>
                         <blockquote style={firstStudy.quote}>
                             <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
@@ -236,12 +250,7 @@ export default function FirstPage() {
                     </div >
                 </Grid>
             </Grid>
-            <footer style={firstStudy.footer}>
-                <div style={firstStudy.footerNav}>
-                    <ButtonGroup ></ButtonGroup>
-                </div>
-                <ProgressBar now={20} animated variant='danger'></ProgressBar>
-            </footer>
+
         </div>
     )
 }

@@ -15,8 +15,7 @@ export const StyledNavButton = withStyles({
             fontWeight: '600',
         },
         '@media(max-width:992px)': {
-            fontSize: '20px',
-            textAlign: 'left'
+            fontSize: '20px'
         },
     },
 })(Button);

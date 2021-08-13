@@ -29,7 +29,7 @@ export default function Design() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item md={6}>
+                <Grid item md={5}>
                     <div style={DesignStyles.carousel}>
                         <Carousel
                             variant='dark'
@@ -95,7 +95,7 @@ export default function Design() {
                         </Carousel>
                     </div>
                     <div style={DesignStyles.bottomText}>
-                        Хочу представить вам небольшую коллекцию своих работ
+                        Представляю вашему вниманию небольшую коллекцию своих работ
                     </div>
                 </Grid>
             </Grid>

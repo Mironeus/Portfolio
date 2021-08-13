@@ -9,8 +9,23 @@ export default function SecondPage() {
     return (
         <div style={thirdStudy.page}>
             <Navbar></Navbar>
-
             <Grid
+                container
+                justifyContent='center'
+                alignItems='flex-end'
+            >
+                <Grid item md={12}>
+                    <footer style={thirdStudy.footer}>
+                        <ProgressBar now={60} animated variant='danger'></ProgressBar>
+                        <div style={thirdStudy.footerNav}>
+                            <ButtonGroup ></ButtonGroup>
+                        </div>
+
+                    </footer>
+                </Grid>
+            </Grid>
+            <Grid
+                style={thirdStudy.content}
                 container
                 justifyContent='center'
                 alignItems='center'
@@ -22,7 +37,7 @@ export default function SecondPage() {
                         justifyContent='center'
                         alignItems='start'
                     >
-                        <Grid item md={10}>
+                        <Grid item md={9}>
                             <div style={thirdStudy.title}>STUDY</div>
                             <blockquote style={thirdStudy.quote}>
                                 <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
@@ -56,21 +71,14 @@ export default function SecondPage() {
                     <div style={thirdStudy.image}>
                         <Image
                             src="/images/sertificate_1.jpg"
-                            height={450}
-                            width={640}
+                            height={550}
+                            width={740}
                             alt="David Abramov"
-                            layout="responsive"
 
                         />
                     </div >
                 </Grid>
             </Grid>
-            <footer style={thirdStudy.footer} >
-                <div style={thirdStudy.footerNav}>
-                    <ButtonGroup ></ButtonGroup>
-                </div>
-                <ProgressBar variant='danger' animated now={60}></ProgressBar>
-            </footer>
         </div >
     )
 }

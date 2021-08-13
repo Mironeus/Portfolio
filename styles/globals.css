@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  /* overflow: hidden; */
+}
+
+a :hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.activeLink{
+    color: #fff !important;
+    text-shadow: 0px 7px 25px #ffffff !important;
+    font-weight: 600 !important
+}
+a {
+  color: #fff!important;
+  text-decoration: none !important;
+}
+
+.homeAvatar{
+  border-radius: 50%;
+}
+.figmaImage{
+  border-radius: 2%;
+  box-shadow: '0px 8px 20px #6c757d'
+}
+
+.btnGroupActiveLink{
+  color:brown;
+}
+

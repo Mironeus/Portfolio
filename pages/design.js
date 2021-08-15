@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import MainNav from "../components/MainNav";
 import Grid from '@material-ui/core/Grid';
 import { DesignStyles } from "../styles/design_styles";
 import Carousel from 'react-bootstrap/Carousel';
@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Design() {
     return (
         <div style={DesignStyles.page}>
-            <Navbar></Navbar>
+            <MainNav></MainNav>
             <Grid
                 container
                 direction='raw'
@@ -14,7 +14,6 @@ export default function Design() {
                 alignItems='start'
             >
                 <Grid item md={10}>
-                    <div style={DesignStyles.title}>DESIGN</div>
                     <blockquote style={DesignStyles.quote}>
                         <p >"The human mind is the principal agent of creation.
                             How we think is the prism for how we percieve reality".</p>
@@ -29,7 +28,10 @@ export default function Design() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item md={5}>
+                <Grid item md={7}>
+                    <div style={DesignStyles.bottomText}>
+                        Представляю вашему вниманию небольшую коллекцию своих работ
+                    </div>
                     <div style={DesignStyles.carousel}>
                         <Carousel
                             variant='dark'
@@ -94,9 +96,7 @@ export default function Design() {
                             </Carousel.Item>
                         </Carousel>
                     </div>
-                    <div style={DesignStyles.bottomText}>
-                        Представляю вашему вниманию небольшую коллекцию своих работ
-                    </div>
+
                 </Grid>
             </Grid>
 

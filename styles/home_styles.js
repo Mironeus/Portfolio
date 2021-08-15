@@ -31,4 +31,11 @@ export const homeStyle = {
         paddingTop: '40px',
 
     },
+    welcomeName: {
+        fontSize: '25px'
+    },
+    welcome: {
+        fontSize: '35px',
+        fontWeight: '300'
+    }
 }

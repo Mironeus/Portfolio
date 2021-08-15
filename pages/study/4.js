@@ -1,14 +1,14 @@
-import Navbar from "../../components/navbar";
+import MainNav from "../../components/MainNav";
 import { Grid } from "@material-ui/core";
 import ButtonGroup from "../../components/ButtonGroup";
 import { fourthStudy } from "../../styles/fourth_study_styles";
-import { ProgressBar } from "react-bootstrap";
+import LinearProgress from '@material-ui/core/LinearProgress';
 import Image from 'next/image';
 
 export default function SecondPage() {
     return (
         <div style={fourthStudy.page}>
-            <Navbar></Navbar>
+            <MainNav></MainNav>
             <Grid
                 container
                 justifyContent='center'
@@ -16,7 +16,7 @@ export default function SecondPage() {
             >
                 <Grid item md={12}>
                     <footer style={fourthStudy.footer}>
-                        <ProgressBar now={80} animated variant='danger'></ProgressBar>
+                        <LinearProgress variant="determinate" color='secondary' value={80} />
                         <div style={fourthStudy.footerNav}>
                             <ButtonGroup ></ButtonGroup>
                         </div>

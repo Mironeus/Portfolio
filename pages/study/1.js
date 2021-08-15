@@ -1,14 +1,14 @@
-import Navbar from "../../components/navbar";
+import MainNav from "../../components/MainNav";
 import { Grid } from "@material-ui/core";
 import Carousel from 'react-bootstrap/Carousel';
 import ButtonGroup from "../../components/ButtonGroup";
 import { firstStudy } from "../../styles/first_study_style";
-import { ProgressBar } from "react-bootstrap";
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 export default function FirstPage() {
     return (
         <div style={firstStudy.page}>
-            <Navbar></Navbar>
+            <MainNav></MainNav>
             <Grid
                 container
                 justifyContent='center'
@@ -16,11 +16,10 @@ export default function FirstPage() {
             >
                 <Grid item md={12} >
                     <footer style={firstStudy.footer}>
-                        <ProgressBar now={20} animated variant='danger'></ProgressBar>
+                        <LinearProgress variant="determinate" color='secondary' value={20} />
                         <div style={firstStudy.footerNav}>
                             <ButtonGroup ></ButtonGroup>
                         </div>
-
                     </footer>
                 </Grid>
             </Grid>
@@ -33,15 +32,15 @@ export default function FirstPage() {
 
                 <Grid item md={5}>
                     <main style={firstStudy.mainContent}>
-                        <div style={firstStudy.title}>STUDY</div>
+                        <div style={firstStudy.subTitle}>
+                            Немного предыстории.
+                        </div>
                         <blockquote style={firstStudy.quote}>
                             <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
                             <cite>-Джон Локк</cite>
                         </blockquote>
                         <div style={firstStudy.textContent}>
-                            <div style={firstStudy.subTitle}>
-                                Немного предыстории.
-                            </div>
+
                             <div style={firstStudy.text}>
                                 Мой путь начался с презентаций, на моей текущей работе.<br></br>
                                 Я изучал <span style={firstStudy.firstSpan}>Power Point, Photoshop</span>   и также понял, что <span style={firstStudy.secondSpan}>Типографика</span> - это важный элемент в дизайне. На свои первые презентации я смотрю с улыбкой, но это и есть прогресс, поэтому всё хорошо.

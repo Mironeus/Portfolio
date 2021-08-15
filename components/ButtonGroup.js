@@ -4,6 +4,11 @@ import Link from 'next/link';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button'
 
+const style = {
+    '& :hover': {
+        color: 'white'
+    }
+}
 
 export default function buttonGroup() {
     const router = useRouter();
@@ -11,11 +16,11 @@ export default function buttonGroup() {
     return (
         <div>
             <ButtonGroup aria-label="First group" size='sm'>
-                <Button variant={router.pathname == "/study/1" ? 'danger' : 'dark'}> <Link href="/study/1"><a>1</a></Link></Button>
-                <Button variant={router.pathname == "/study/2" ? 'danger' : 'dark'}> <Link href="/study/2"><a>2</a></Link></Button>
-                <Button variant={router.pathname == "/study/3" ? 'danger' : 'dark'}> <Link href="/study/3"><a>3</a></Link></Button>
-                <Button variant={router.pathname == "/study/4" ? 'danger' : 'dark'}> <Link href="/study/4"><a>4</a></Link></Button>
-                <Button variant={router.pathname == "/study/5" ? 'danger' : 'dark'}> <Link href="/study/5"><a>5</a></Link></Button>
+                <Button variant={router.pathname == "/study/1" ? 'danger' : 'dark'} href="/study/1">1</Button>
+                <Button variant={router.pathname == "/study/2" ? 'danger' : 'dark'} href="/study/2">2</Button>
+                <Button variant={router.pathname == "/study/3" ? 'danger' : 'dark'} href="/study/3">3</Button>
+                <Button variant={router.pathname == "/study/4" ? 'danger' : 'dark'} href="/study/4">4</Button>
+                <Button variant={router.pathname == "/study/5" ? 'danger' : 'dark'} href="/study/5">5</Button>
             </ButtonGroup>
         </div>
     );

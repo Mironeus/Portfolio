@@ -6,11 +6,6 @@ export const firstStudy = {
         paddingTop: '15px',
         padding: '15px'
     },
-    title: {
-        fontSize: '7vw',
-        fontWeight: '100',
-        color: '#ED1C24',
-    },
     subTitle: {
         fontSize: '35px',
         paddingBottom: '15px',
@@ -24,6 +19,12 @@ export const firstStudy = {
         fontWeight: '400'
 
     },
+    quote: {
+        fontSize: '20px',
+        fontStyle: 'italic',
+        paddingBottom: '50px'
+
+    },
     secondSpan: {
         color: '#333333',
         fontWeight: '400'
@@ -31,8 +32,7 @@ export const firstStudy = {
     },
     carousel: {
         boxShadow: '0px 8px 20px #6c757d',
-        borderRadius: '10px',
-        border: '10px solid #ffffff',
+        margin: '10px'
     },
     carouselText: {
         display: 'flex',
@@ -62,6 +62,6 @@ export const firstStudy = {
         paddingTop: '10px'
     },
     mainContent: {
-        padding: '40px'
+        padding: '60px'
     }
 }

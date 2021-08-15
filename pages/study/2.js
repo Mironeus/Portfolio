@@ -1,14 +1,32 @@
-import Navbar from "../../components/navbar";
+import MainNav from "../../components/MainNav";
 import { Grid } from "@material-ui/core";
 import ButtonGroup from "../../components/ButtonGroup";
 import { secondStudy } from "../../styles/second_study_style";
-import { ProgressBar } from "react-bootstrap";
+import LinearProgress from '@material-ui/core/LinearProgress';
+import { makeStyles } from '@material-ui/core/styles';
 import Image from 'next/image';
+import Card from '@material-ui/core/Card';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import theme from "../../styles/MainProjectTheme";
+import { ThemeProvider } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles({
+    root: {
+        maxWidth: 800,
+    },
+    media: {
+        height: 540,
+    },
+});
 
 export default function SecondPage() {
+    const classes = useStyles();
     return (
         <div style={secondStudy.page}>
-            <Navbar></Navbar>
+            <MainNav></MainNav>
             <Grid
                 container
                 justifyContent='center'
@@ -16,7 +34,7 @@ export default function SecondPage() {
             >
                 <Grid item md={12}>
                     <footer style={secondStudy.footer}>
-                        <ProgressBar now={40} animated variant='danger'></ProgressBar>
+                        <LinearProgress variant="determinate" color='secondary' value={40} />
                         <div style={secondStudy.footerNav}>
                             <ButtonGroup ></ButtonGroup>
                         </div>
@@ -43,13 +61,29 @@ export default function SecondPage() {
                         </div>
                     </main>
                 </Grid>
-                <Grid item md={6}>
-                    <Image
+                <Grid item md={6} xs={12}>
+                    <Card className={classes.root}>
+                        <CardContent>
+
+                            <ThemeProvider theme={theme}>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Макет этого сайта на Figma
+                                </Typography>
+                            </ThemeProvider>
+                        </CardContent>
+                        <CardMedia
+                            className={classes.media}
+                            image="/images/figma_project.jpg"
+                            title="Figma Project"
+                        />
+
+                    </Card>
+                    {/* <Image
                         src="/images/figma_project.jpg"
                         height={580}
                         width={900}
                         alt="David Abramov"
-                    />
+                    /> */}
 
                 </Grid>
             </Grid>

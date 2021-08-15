@@ -3,9 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 import { Index, StyledButton } from '../styles/index_styles.js';
 import { Grid } from '@material-ui/core';
+import Button from 'react-bootstrap/Button';
+
 
 export default function Hello() {
   return (
+
     <div style={Index.page}>
       <div style={Index.logo}>
         <Image
@@ -17,13 +20,11 @@ export default function Hello() {
       <div style={Index.welcome}>HELLO &nbsp;<span style={Index.and}> & </span>&nbsp;WELCOME</div>
       <h4 style={Index.myName}> <span style={Index.myNameIs}>MY NAME IS &nbsp;</span> DAVID ABRAMOV</h4>
       <div style={Index.centerButton}>
-        <StyledButton>
+        <Button variant='danger' size='lg' style={Index.mainButton}>
           <Link href='/home'>
-            <a>
-              <span style={Index.buttonText}>ENTER</span>
-            </a>
+            <span style={Index.buttonText}>ENTER</span>
           </Link>
-        </StyledButton>
+        </Button>
       </div>
       <Grid container
         justifyContent='flex-end'>

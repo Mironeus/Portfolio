@@ -55,25 +55,9 @@ export const Index = {
   },
   portfolio: {
     fontSize: '2vw'
+  },
+  mainButton: {
+    fontSize: '1.5vw',
   }
 }
 
-export const StyledButton = withStyles({
-  root: {
-    backgroundColor: '#DF5B61',
-    paddingLeft: '75px',
-    paddingRight: '75px',
-    color: '#fff',
-    fontFamily: " 'Montserrat', sans-serif ",
-    fontWeight: '600',
-    boxShadow: 'none',
-    fontSize: '1.5vw',
-    transition: '1s',
-    borderRadius: '12px',
-    boxShadow: '0px 2px 2px #DF5B61',
-    '&:hover': {
-      boxShadow: '0px 4px 25px #DF5B61',
-      backgroundColor: '#DF5B61'
-    },
-  }
-})(Button);

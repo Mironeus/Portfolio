@@ -5,7 +5,13 @@ export const ContactStyles = {
         backgroundImage: "url(../images/background_contacts.jpg)",
         backgroundSize: 'cover',
         textAlign: 'left',
-        height: '100vh'
+        alignItems: 'end',
+        height: '100vh',
+    },
+    span: {
+        fontSize: '20px',
+        fontWeight: '500',
+        color: '#ED1C24'
     },
     title: {
         paddingTop: '30px',
@@ -13,19 +19,15 @@ export const ContactStyles = {
         fontWeight: '100',
         color: '#ED1C24'
     },
-    span: {
-        fontSize: '20px',
-        fontWeight: '500',
-        color: '#ED1C24'
-    },
     text: {
-        backgroundColor: 'rgba(51, 51, 51, 0.2)',
+        backgroundColor: 'rgba(206, 212, 218, 0.95)',
         borderRadius: '7px',
-        padding: '20px',
+        padding: '12px',
         fontSize: '20px',
         fontWeight: '500',
+        marginTop: '25%'
     },
     phoneCity: {
         fontSize: '15px'
-    }
+    },
 }

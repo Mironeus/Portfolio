@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import MainNav from "../components/MainNav";
 import Grid from '@material-ui/core/Grid';
 import Image from 'next/image';
 import { homeStyle } from "../styles/home_styles";
@@ -9,7 +9,7 @@ export default function Home() {
     return (
 
         <div style={homeStyle.page}>
-            <Navbar></Navbar>
+            <MainNav></MainNav>
             <Grid
                 container
                 style={homeStyle.gridContainer}
@@ -31,9 +31,7 @@ export default function Home() {
                     <div style={homeStyle.title}>
                         PORTFOLIO
                     </div>
-                    <div style={homeStyle.text}>Это моё портфолио и первый проект, который ляжет в репозиторий на Github®.
-                        Здесь я попытаюсь рассказать о себе и своих знаниях и возможно смогу получить первую работу -
-                        то к чему стремился и для чего посвятил много времени.</div>
+                    <div style={homeStyle.text}> <span style={homeStyle.welcome}>Привет.</span>  <br /> Меня зовут Абрамов Давид и я начинающий web разработчик.  <br />Этот сайт я создал,чтобы рассказать о себе и своих знаниях и возможно пробудить заинтересованность сотрудничества со мной над вашим проектом.</div>
 
                 </Grid>
             </Grid>

@@ -1,0 +1,58 @@
+.page {
+    background-image: url(../public/images/background_contacts.jpg);
+    background-size: cover;
+    text-align: left;
+    height: 100vh;
+}
+.span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ED1C24;
+}
+
+.text {
+    background-color: rgba(206, 212, 218, 0.95);
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25%;
+}
+.phoneCity {
+    font-size: 15px;
+}
+.copyRight {
+    position: relative;
+    text-align: right;
+    font-size: 10px;
+    animation: copy 0.9s forwards;
+    transform: translateX(-300%);
+}
+@keyframes copy {
+    from{transform: translateX(-300%);}
+    to{transform: translateX(0%);}
+}
+.contactsText{
+    position: relative;
+    animation: contactsText 2s forwards;
+    opacity: 0;
+}
+@keyframes contactsText {
+    from{opacity:0; transform: translateX(-400%);}
+    to{opacity:1; transform: translateX(0%);}
+}
+
+/* horizontal MOBILE SIZING and ipad */
+@media only screen and (min-width: 667px) and (max-width:736px) {
+    .text {
+        font-size: 14px;
+        margin-top: 15%;
+    }
+    .copyRight {
+        font-size: 7px;
+    }
+    .span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ED1C24;
+    }
+}

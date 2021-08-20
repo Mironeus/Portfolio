@@ -1,20 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
+  scroll-behavior: smooth;
   overflow: auto;
 }
 
-* {
-  box-sizing: border-box;
+li {
+  list-style: none;
 }
 
-
-
-.homeAvatar{
-  border-radius: 50%;
+a {
+  text-decoration: none;
 }
+
+a:hover {
+ color: white;
+}
+
 
 
 

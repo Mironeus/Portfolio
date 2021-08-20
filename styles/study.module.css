@@ -1,0 +1,682 @@
+.page {
+    background-image: url(../public/images/background_study_1.jpg);
+    background-size: cover;
+    height: auto;
+}
+.fixedNav {
+    z-index: 99999999;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+/* HISTORY BLOCK */
+.historyBlock{
+    margin-top: 160px;
+}
+.historySubTitle {
+    position: relative;
+    font-size: 35px;
+    padding-bottom: 15px;
+    animation-name:subTitle;
+    animation-duration: 1s;
+}
+@keyframes subTitle{
+    0%{opacity: 0.5; left: -100%;}
+    100%{opacity: 1; left: 0%;}
+}
+.historyText {
+    font-size: 20px;
+    font-weight: 200;
+    animation-name: historyText;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform:scale(0.001)
+
+}
+@keyframes historyText {
+    from{opacity:0.5;transform:scale(0.1) }
+    to{opacity:1;transform: scale(1);}
+  }
+.historyFirstSpan {
+    color: #ED1C24;
+    font-weight: 400
+
+}
+.historyQuote {
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 50px;
+    animation-name: historyQuote;
+    animation-duration: 1.5s;
+}
+@keyframes historyQuote {
+    0%{opacity: 0.5; left: -100%;}
+    100%{opacity: 1; left: 0%;}
+  }
+
+.historySecondSpan {
+    color: #333333;
+    font-weight: 400
+
+}
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 8px 20px #6c757d;
+    animation-name: carousel;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    right:-150%
+    }
+    @keyframes carousel {
+        from {right: -100%}
+        to {right:0%}   
+      }
+
+.carouselText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    opacity: 0.9
+}
+
+.historyMainContent {
+    padding: 40px;
+}
+.historyScrollFooterAlign{
+    display: flex;
+    align-items: flex-start;
+}
+.historyScrollFooter{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%{transform:translateY(50px);}
+    100%{transform:translateY(0px);}
+}
+.historyScrollIcon{
+    font-size: 40px;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%{transform:translateY(50px);}
+    100%{transform:translateY(0px);}
+}
+
+
+/* FIGMA BLOCK */
+.figmaCardImageForVerticalPhone{
+    display: none;
+}
+.figmaAnchor{
+    position: absolute;
+    transform: translateY(-50vh); 
+}
+.figmaBlock{
+    padding:60px;
+    margin:150px 0px 150px 0px
+}
+.figmaSubTitle {
+    position: relative;
+    font-size: 35px;
+    padding-bottom: 15px;  
+}
+
+
+.figmaText {
+    font-size: 20px;
+    font-weight: 200
+}
+.figmaMainText{
+    position: relative;
+}
+
+
+.figmaTextTitle {
+    position: relative;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.figmaSecondSpan {
+    color: #333333;
+    font-weight: 400;
+
+}
+.figmaSubTextTitle {
+    color: #ED1C24;
+    font-weight: 600;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.figmaCardImage{
+    padding: 15px;
+}
+
+.figmaImage {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px #6c757d;
+    border-radius: 2%
+}
+
+
+.figmaScrollFooterAlign{
+    display: flex;
+    justify-content: flex-end;
+}
+.figmaScrollFooter{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2.5s infinite;
+}
+@keyframes pulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+.figmaScrollIcon{
+    font-size: 30px;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+
+
+
+/* UDEMY ONE BLOCK */
+.udemyTwoImageForVerticalPhoneSize{
+    display: none;
+}
+.udemyOneAnchor{
+    position: absolute;
+    transform: translateY(-50vh); 
+}
+
+.udemyOneBlock{
+    margin-bottom: 180px;
+}
+.udemyOnePage {
+    background-image: url(../public/images/background_study_3.jpg);
+    background-size: cover;
+    height: 100vh
+}
+.udemyOneSubTitle {
+    position: relative;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.udemyOneText {
+    font-size: 17px;
+    font-weight: 200;
+    font-weight: 400;
+}
+.udemyOneSpanTitle {
+    font-size: 25px;
+    color: #333333;
+    font-weight: 400
+}
+.udemyOneSpanSubTitle {
+    font-weight: 200
+}
+.udemyOneSpan {
+    font-weight: 600
+}
+.udemyOneResult {
+    margin-top: 10px
+}
+.udemyOneTextTitle {
+    position: relative;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.udemyOneImage {
+    width: 100%;
+}
+.udemyOneFooterNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px
+}
+.udemyOneFooter {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex:  0 0 auto;
+    padding-top: 10px;
+}
+.udemyOneMainContent {
+    padding: 60px
+}
+
+.udemyOneScrollFooterAlign{
+    display: flex;
+    align-items: flex-start;
+}
+.udemyOneScrollFooter{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2.5s infinite;
+}
+@keyframes pulse {
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(10px);}
+    100%{transform:translateY(0px);}
+}
+.udemyOneScrollIcon{
+    font-size: 40px;
+    position: relative;
+    animation: pulse 2.5s infinite;
+}
+@keyframes pulse {
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(10px);}
+    100%{transform:translateY(0px);}
+}
+
+
+/* UDEMY TWO BLOCK */
+.udemyTwoAnchor{
+    position: absolute;
+    transform: translateY(-50vh); 
+}
+.udemyTwoBlock{
+    margin-bottom: 40px;
+}
+.udemyTwoPage {
+    background-image: url(../public/images/background_study_3.jpg);
+    background-size: cover;
+    height: 100vh
+}
+.udemyTwoSubTitle {
+    font-size: 35px;
+    padding-bottom: 15px;   
+}
+
+.udemyTwoText {
+    font-size: 17px;
+    font-weight: 200;
+    font-weight: 400;
+}
+.udemyTwoSpanTitle {
+    font-size: 25px;
+    color: #333333;
+    font-weight: 400
+}
+.udemyTwoSpanSubTitle {
+    font-weight: 200
+}
+.udemyTwoSpan {
+    font-weight: 600
+}
+.result {
+    margin-top: 10px
+}
+.udemyTwoTextTitle {
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.udemyTwoImage {
+    width: 100%;
+}
+.udemyTwoFooterNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px
+}
+.udemyTwoFooter {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex:  0 0 auto;
+    padding-top: 10px;
+}
+.udemyTwoMainContent {
+    padding: 60px
+}
+
+.udemyTwoScrollFooterAlign{
+    display: flex;
+    justify-content: flex-end;
+}
+.udemyTwoScrollFooter{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2.5s infinite;
+}
+@keyframes pulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+.udemyTwoScrollIcon{
+    font-size: 30px;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+
+
+/* vertical iPhone SIZING */
+@media only screen and (max-width: 414px) {
+    .figmaCardImageForVerticalPhone{
+        display: initial;
+    }
+    .figmaFooterText{
+        margin-bottom: 50px;
+    }
+    .figmaCardImage{
+        display: none;
+    }
+    .historyQuote{
+        font-size: 12px;
+    }
+    .historyMainContent{
+        margin-top: -70px;
+    }
+    .historyScrollFooter{
+        display: none;
+    }
+    .figmaBlock{
+        margin-top: 150px;
+        margin: 15px;
+        padding:15px
+    }
+    
+    .figmaScrollFooterAlign{
+      display: none;
+    }
+    .carousel{
+        margin-bottom: 80px;
+    }
+    .figmaMainText{
+        margin-bottom: 40px;
+    }
+    .udemyOneScrollFooterAlign{
+        display: none;
+    }
+    .udemyTwoImageForVerticalPhoneSize{
+        display: initial;
+        width: 100%;
+    }
+    .udemyTwoSubTitle{
+        margin-top: -50px;
+    }
+    .udemyTwoImage{
+        display: none;
+    }
+    .udemyTwoMainContent{
+        margin-Top: -100px;
+    }
+    .stickyNav {
+        opacity: 0.95;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+    }
+    .udemyTwoScrollFooterAlign{
+        display: none;
+    }
+    .carouselText{
+        display: none;
+    }
+}
+
+/* horizontal iPhone SIZING */
+@media only screen and (min-width: 667px) and (max-width:736px) {
+    
+    .historyMainContent{
+        margin-top: -70px;
+    }
+    .historyScrollFooter{
+        display: none;
+    }
+    .figmaCardImageForVerticalPhone{
+        display: initial;
+        margin-top: 50px;
+        margin-bottom: -150px;
+    }
+    .figmaCardImage{
+        display: none;
+    }
+    .figmaFooterText{
+        margin-bottom: 50px;
+    }
+    .carousel{
+        margin-bottom: -90px;
+    }
+    .figmaScrollFooterAlign{
+        display: none;
+      }
+    .udemyOneScrollFooterAlign{
+        display: none;
+    }
+    .udemyOneSubTitle{
+        margin-top: -140px;
+    }
+    .udemyOneImage{
+        margin-bottom: -150px;
+    }
+    .udemyTwoImageForVerticalPhoneSize{
+        display: initial;
+        width: 100%;
+    }
+    .udemyTwoImage{
+        display: none;
+    }
+    .udemyTwoScrollFooterAlign{
+        display: none;
+    }
+
+}
+
+/* vertical iPAD SIZING */
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .figmaCardImageForVerticalPhone{
+        display: initial;
+    }
+    .figmaCardImage{
+        display: none;
+    }
+    .historyQuote{
+        font-size: 12px;
+    }
+    .historyMainContent{
+        margin-top: -70px;
+    }
+    .historyScrollFooter{
+        display: none;
+    }
+    .figmaBlock{
+        margin-top: 150px;
+        margin: 15px;
+        padding:15px
+    }
+    
+    .figmaScrollFooterAlign{
+      display: none;
+    }
+    .figmaText{
+        margin-bottom: 50px;
+    }
+    .carousel{
+        margin-bottom: 80px;
+    }
+    
+    .udemyOneScrollFooterAlign{
+        display: none;
+    }
+    .udemyTwoImageForVerticalPhoneSize{
+        display: initial;
+        width: 100%;
+    }
+    .udemyTwoImage{
+        display: none;
+    }
+    .udemyTwoMainContent{
+        margin-Top: -100px;
+    }
+    .stickyNav {
+        opacity: 0.95;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+    }
+    .udemyTwoScrollFooterAlign{
+        display: none;
+    }
+}
+
+
+/* horizontal iPAD SIZING */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .figmaCardImageForVerticalPhone{
+        display: none;
+    }
+    .figmaCardImage{
+        display: initial;
+    }
+    .figmaMainText{
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .figmaSubTitle{
+        font-size: 25px;
+        padding: 30px;
+    }
+    .figmaSubTextTitle{
+        margin-top: 90px;
+    }
+    .figmaText{
+        padding: 30px;
+    }
+    .figmaFooterText{
+        font-size: 17px;
+    }
+    .historyQuote{
+        font-size: 12px;
+    }
+    .historyMainContent{
+        margin-top: -70px;
+    }
+    
+    .historyScrollFooter{
+        display: initial;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .historyScrollIcon{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .figmaBlock{
+        margin-top: 150px;
+        margin: 15px;
+        padding:15px
+    }
+    .figmaScrollFooter{
+        flex-direction: row;
+    }
+    .figmaScrollIcon{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .figmaScrollFooterAlign{
+      display: initial;
+    }
+    .carousel{
+        margin-bottom: 80px;
+        margin-right: 40px;
+    }
+    .figmaMainText{
+        margin-bottom: -70px;
+    }
+    .udemyOneMainText{
+        font-size: 15px;
+    }
+    .udemyOneScrollFooter{
+        flex-direction: row;
+    }
+    .udemyOneScrollIcon{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .udemyOneScrollFooterAlign{
+        display: initial;
+    }
+    .udemyTwoImageForVerticalPhoneSize{
+        display: none;
+    }
+    .udemyTwoImage{
+        display: initial;
+    }
+    .udemyTwoMainContent{
+        margin-Top: -100px;
+    }
+    .stickyNav {
+        opacity: 0.95;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+    }
+    .udemyTwoScrollFooterAlign{
+        display: initial;
+    }
+    .udemyTwoMainText{
+        font-size: 15px;
+    }
+    .udemyTwoScrollFooter{
+        flex-direction: row;
+    }
+    .udemyTwoScrollIcon{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}

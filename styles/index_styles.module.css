@@ -1,0 +1,155 @@
+/* Elipse Animation */
+  .RightEllipse{
+    border-radius: 50%;
+    position: relative;
+    transform: translateX(-100%);
+    animation: RightEllipseShow 2s forwards, RightEllipseTurn 10s 2s infinite
+  }
+  @keyframes RightEllipseShow {
+    from{transform: translateX(100%);}
+    to{transform: translateX(250px);}
+  }
+  @keyframes RightEllipseTurn {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+  }
+  
+  
+  .page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../public/images/background_welcome.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+  }
+.page a{
+  color: white;
+}
+  .welcome{
+   position: relative;
+   text-align: center;
+    font-size: 6vw;
+    font-weight: 50;
+    animation: welcome 1.5s forwards;
+    transform: translateX(-100%);
+  }
+  @keyframes welcome {
+    from {transform:translateX(-100%)}
+    to {transform:translateX(0%)}
+    
+  }
+  .logoContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    z-index: 999999999;
+    position: relative;
+    border-radius: 50%;
+    width: 18%;
+    padding-top: 20px;
+    animation: logo 2s forwards, logoTurnPulse 8s 5s infinite
+  }
+  @keyframes logo {
+    from{transform: translateY(-100%);}
+    to{transform: translateY(0%);}
+  }
+  @keyframes logoTurnPulse {
+    0%{transform: rotate(0deg);}
+    10%{transform: rotate(360deg);}
+    22%{transform: scale(1.1);}
+    25%{transform: scale(1);}
+    100%{transform: rotate(360deg);}
+  }
+  
+
+  .myName {
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 300;
+    padding-top: 0px;
+    animation:mynameis 1s forwards;
+    animation-duration: 1s;
+    transform:translateY(-10px);
+    opacity: 0;
+  }
+  @keyframes mynameis {
+    0% {opacity:0; transform:translateY(-100%px)}
+    100% {opacity:1;transform:translateY(0%)}
+    
+  }
+
+  .myNameIs {
+    font-size: 1.5vw;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+  }
+ 
+  .centerButton {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .footer {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 200;
+    text-align: end;
+    padding-right: 30px;
+    animation-name: footer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: translateY(200%);
+  }
+  @keyframes footer {
+    0% {transform: translateY(200%);}
+    100% {transform: translateY(0%);}
+    
+  }
+  .portfolio {
+    font-size: 2vw
+  }
+  .mainButton {
+    font-size: '30px';
+    transition: 0.5s ease-in-out;
+    animation: show 3s forwards,  pulse 5s 3s infinite;
+    transform:scale(0.025);
+}
+@keyframes show {
+    0%{transform:scale(0.025) }
+    100%{transform: scale(1.5)}
+  }
+@keyframes pulse {
+    0%{transform: scale(1.5);}
+    50%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+}
+
+
+  .mainButton:hover{
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 4px 30px #DF5B61;;
+  }
+
+  .line{
+    position: relative;
+    transform: translateX(400%);
+    animation: line 2s forwards;
+  }
+  @keyframes line {
+    from{transform: translateX(400%);}
+    to{transform: translateX(100%);}
+  }
+ 

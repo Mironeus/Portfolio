@@ -1,23 +1,27 @@
-import MainNav from "../components/MainNav";
+import MainNavbar from '../components/MainNavbar';
 import Grid from '@material-ui/core/Grid';
-import { DesignStyles } from "../styles/design_styles";
+import styles from "../styles/design_styles.module.css";
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Design() {
     return (
-        <div style={DesignStyles.page}>
-            <MainNav></MainNav>
+        <div className={styles.page}>
+            <MainNavbar></MainNavbar>
             <Grid
                 container
                 direction='raw'
-                justifyContent='center'
+                justifyContent='flex-start'
                 alignItems='start'
             >
-                <Grid item md={10}>
-                    <blockquote style={DesignStyles.quote}>
-                        <p >"The human mind is the principal agent of creation.
-                            How we think is the prism for how we percieve reality".</p>
-                        <cite>- Kilroy J. Oldster</cite>
+                <Grid item md={10} sm={9}>
+                    <blockquote className={styles.quote}>
+                        <div className={styles.quoteText}>
+                            <p >"The human mind is the principal agent of creation.
+                                How we think is the prism for how we percieve reality".</p>
+                        </div>
+                        <div className={styles.quoteAuthor}>
+                            <cite>- Kilroy J. Oldster</cite>
+                        </div>
                     </blockquote>
                 </Grid>
             </Grid>
@@ -28,11 +32,11 @@ export default function Design() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item md={7}>
-                    <div style={DesignStyles.bottomText}>
-                        Представляю вашему вниманию небольшую коллекцию своих работ
+                <Grid item md={11} sm={12} lg={11} xl={7}>
+                    <div className={styles.bottomText}>
+                        Представляю вашему вниманию  коллекцию своих работ
                     </div>
-                    <div style={DesignStyles.carousel}>
+                    <div className={styles.carousel}>
                         <Carousel
                             variant='dark'
                             indicators='true'
@@ -96,6 +100,9 @@ export default function Design() {
                             </Carousel.Item>
                         </Carousel>
                     </div>
+
+                </Grid>
+                <Grid item md={12}>
 
                 </Grid>
             </Grid>

@@ -41,7 +41,7 @@ export default function FirstStudy() {
                     justifyContent='center'
                     alignItems='center'
                 >
-                    <Grid item lg={5} md={6} name='study'>
+                    <Grid item lg={5} md={6}>
                         <main className={styles.historyMainContent}>
                             <div className={styles.historySubTitle}>
                                 Немного предыстории.

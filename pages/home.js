@@ -25,7 +25,7 @@ export default function Home() {
                                 </li>
                                 <li className={router.pathname == '/study' ? styles.navItemActive : styles.navItem}>
                                     <div className={router.pathname == '/study' ? styles.navLinkActive : styles.navLink}>
-                                        <Link href="#study">
+                                        <Link href="/study">
                                             Study
                                         </Link>
                                     </div>

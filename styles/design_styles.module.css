@@ -84,6 +84,9 @@
        .bottomText{
            font-size: 15px;
        }
+       .quoteText{
+           margin-top: 170px;
+       }
     }
 
     /* horizontal MOBILE SIZING and ipad */

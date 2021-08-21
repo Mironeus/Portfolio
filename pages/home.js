@@ -31,7 +31,7 @@ export default function Home() {
                                 <li className={router.pathname == '/study' ? styles.navItemActive : styles.navItem}>
                                     <div className={router.pathname == '/study' ? styles.navLinkActive : styles.navLink}>
                                         <Link href="/study">
-                                            Study
+                                            <a>Study</a>
                                         </Link>
                                     </div>
                                 </li>

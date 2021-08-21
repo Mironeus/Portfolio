@@ -70,7 +70,7 @@ export default function FirstStudy() {
                         </div>
                     </Grid>
 
-                    <Grid item lg={6} md={6} xs={11} sm={7} >
+                    <Grid item lg={6} md={6} xs={11} sm={11} >
                         <HistoryCarousel>
                             <div className={styles.carousel}>
                                 <Carousel

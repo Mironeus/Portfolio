@@ -97,7 +97,7 @@
         .welcome{
             margin:0px;
             padding:0px;
-            font-size: 18px;
+            font-size: 23px;
             margin:0px;
             animation: welcome 2s 0.5s forwards, pulse 3s 1.7s infinite;
             right: -100%;

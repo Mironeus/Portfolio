@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow:scroll;
 }
 
 li {

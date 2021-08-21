@@ -69,7 +69,7 @@
 /* vertical MOBILE SIZING */
 @media only screen and (max-width: 414px) {
     .page{
-        height: 90vh;
+        height: 100vh;
     }
     .mainContent{
         margin-top: 300px;

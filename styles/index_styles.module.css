@@ -23,7 +23,7 @@
     background-size: cover;
     height: 100vh;
     background-position: center;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 .page a{
   color: white;
@@ -163,12 +163,21 @@
        font-weight: 200;
      }
      .mainButton{
+       position: relative;
        animation: none;
        font-size: 20px;
-       transform:scale(1);
+       animation: mobileButton 2s forwards;
+       transform:scale(0.0025);
+     }
+     @keyframes mobileButton {
+       from {transform: scale(0.0025);}
+       to {transform: scale(1);}
+     }
+     .myNameIs{
+       font-size: 13px;
      }
      .myName{
-       font-size: 15px;
+       font-size: 20px;
      }
      .logo{
        width: 50%;
@@ -182,14 +191,26 @@
    /* horizontal MOBILE SIZING and ipad */
    @media only screen and (min-width: 667px) and (max-width:736px) {
     .mainButton{
-      animation: none;
+      position: relative;
+      font-size: 14px;
+      position: relative;
+      animation: mobileButton 2s forwards;
+      transform:scale(0.0025);
+    }
+    @keyframes mobileButton {
+      from {transform: scale(0.0025);}
+      to {transform: scale(1);}
+    }
+    .myName{
       font-size: 20px;
-      transform:scale(1);
+    }
+    .welcome{
+      font-size: 50px;
     }
    }
 
    /* vertical sizing for ipad */
-  @media only screen and (min-width:768px) and (max-width:768px) {
+  @media only screen and (min-width:768px) and (max-width:1024px) {
     .welcome{
       /* display: flex;
       flex-direction: column; */
@@ -207,6 +228,28 @@
     .mainButton{
       animation: none;
       font-size: 40px;
-      transform:scale(1);
+      animation: mobileButton 2s forwards;
+      transform:scale(0.0025);
+    }
+    @keyframes mobileButton {
+      from {transform: scale(0.0025);}
+      to {transform: scale(1);}
     }
   }
+
+  /* horizontal iPAD SIZING */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .mainButton{
+    font-size: 30px;
+    animation: mobileButton 2s forwards;
+    transform:scale(0.0025);
+  }
+  @keyframes mobileButton {
+    from {transform: scale(0.0025);}
+    to {transform: scale(1);}
+  }
+  .logo{
+    width: 25%;
+    margin-bottom: 50px;
+  }
+}

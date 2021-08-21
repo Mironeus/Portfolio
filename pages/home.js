@@ -21,10 +21,10 @@ export default function Home() {
                         <nav className={styles.navbar}>
                             <div className={styles.navLogo}><Link href="/" > Portfolio 2021</Link></div>
                             <ul className={active ? styles.navMenuActive : styles.navMenu}>
-                                <li className={router.pathname == '/home' ? styles.navItemActive : styles.navItem}>
+                                <li className={styles.navItemActive}>
                                     <div className={router.pathname == '/home' ? styles.navLinkActive : styles.navLink}>
                                         <Link href="/home" >
-                                            Home
+                                            <a>Home</a>
                                         </Link>
                                     </div>
                                 </li>

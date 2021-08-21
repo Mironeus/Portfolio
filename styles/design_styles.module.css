@@ -24,7 +24,7 @@
     animation-name: quoteText;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    opacity: 0;
+    transform: translateX(-100%);
 }
 
 @keyframes quoteText {

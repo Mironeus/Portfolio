@@ -14,33 +14,33 @@ export default function MainNavbar() {
             <div>
                 <header className={styles.header}>
                     <nav className={styles.navbar}>
-                        <div className={styles.navLogo}><Link href="/" > Portfolio 2021</Link></div>
+                        <div className={styles.navLogo}><Link href="/"><a>Portfolio 2021</a></Link></div>
                         <ul className={active ? styles.navMenuActive : styles.navMenu}>
                             <li className={router.pathname == '/home' ? styles.navItemActive : styles.navItem}>
                                 <div className={router.pathname == '/home' ? styles.navLinkActive : styles.navLink}>
                                     <Link href="/home" >
-                                        Home
+                                        <a>Home</a>
                                     </Link>
                                 </div>
                             </li>
                             <li className={router.pathname == '/study' ? styles.navItemActive : styles.navItem}>
                                 <div className={router.pathname == '/study' ? styles.navLinkActive : styles.navLink}>
                                     <Link href="/study">
-                                        Study
+                                        <a>Study</a>
                                     </Link>
                                 </div>
                             </li>
                             <li className={router.pathname == '/design' ? styles.navItemActive : styles.navItem}>
                                 <div className={router.pathname == '/design' ? styles.navLinkActive : styles.navLink}>
                                     <Link href="/design">
-                                        Design
+                                        <a>Design</a>
                                     </Link>
                                 </div>
                             </li>
                             <li className={router.pathname == '/contacts' ? styles.navItemActive : styles.navItem}>
                                 <div className={router.pathname == '/contacts' ? styles.navLinkActive : styles.navLink}>
                                     <Link href="/contacts">
-                                        Contacts
+                                        <a>Contacts</a>
                                     </Link>
                                 </div>
                             </li>

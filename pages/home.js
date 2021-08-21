@@ -38,14 +38,14 @@ export default function Home() {
                                 <li className={router.pathname == '/design' ? styles.navItemActive : styles.navItem}>
                                     <div className={router.pathname == '/design' ? styles.navLinkActive : styles.navLink}>
                                         <Link href="/design">
-                                            Design
+                                            <a>Design</a>
                                         </Link>
                                     </div>
                                 </li>
                                 <li className={router.pathname == '/contacts' ? styles.navItemActive : styles.navItem}>
                                     <div className={router.pathname == '/contacts' ? styles.navLinkActive : styles.navLink}>
                                         <Link href="/contacts">
-                                            Contacts
+                                            <a>Contacts</a>
                                         </Link>
                                     </div>
                                 </li>

@@ -8,7 +8,7 @@
         color: white;
     }
     .fixedNav {
-        z-index: 999999;
+       z-index: 999999;
        position: fixed;
        width: 100%;
        opacity: 0.95;
@@ -70,16 +70,15 @@
         font-weight: 200;
         text-align: left;
         border-radius: 7px;
-       
         font-size: 35px;
         font-weight: 300;
-        animation: welcome 2s 0.5s forwards, pulse 3s 1.7s infinite;
-        right: -150%;
+        animation: welcome 2s 0.5s forwards, pulse 3s 3s infinite;
+        transform: translateX(110%);
 
     }
     @keyframes welcome {
-       from{opacity:0.5; right: -150%}
-        to{opacity:1; right:0%} 
+       from{opacity:0; transform:translateX(110%)}
+        to{opacity:1; transform:translateX(0%)} 
       }
       @keyframes pulse {
         0%{transform: scale(1);}
@@ -101,23 +100,10 @@
             border-radius: 50%;
         }
         .welcome{
-            margin:0px;
-            padding:0px;
-            font-size: 23px;
-            margin:0px;
-            animation: welcome 2s 0.5s forwards, pulse 3s 1.7s infinite;
-            right: -100%;
-    
+            margin-left: 20px;
+            padding:20px;
+            font-size: 20px;
         }
-        @keyframes welcome {
-           from{opacity:0.5; right: -100%}
-            to{opacity:1; right:-10%} 
-          }
-          @keyframes pulse {
-            0%{transform: scale(1);}
-            50%{transform: scale(1.05);} 
-            100%{transform: scale(1);}
-           }
         .title{
             font-size: 30px;
         }

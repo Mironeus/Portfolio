@@ -57,7 +57,7 @@
         padding-top: 20px
     }
 .gridContainer {
-        padding-top: 40px
+        padding-top: 100px
 
     }
 .welcomeName {
@@ -220,13 +220,47 @@
         display: none;
     }
     
-    .bar {
+    .bar1 {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: 0.3s;
+        background-color: white;
+        animation: bar1 3s 3s forwards;
+        opacity: 0;
+    }
+    @keyframes bar1 {
+       from{opacity:0; transform: translateY(-50px);}
+       to{opacity:1;transform: translateY(0);} 
+    }
+    .bar2 {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: white; 
+        animation: bar2 2s 3s forwards;
+        opacity: 0;
+    }
+    @keyframes bar2 {
+       from{opacity:0;transform: translateY(-50px);}
+       to{opacity:1;transform: translateY(0);} 
+    }
+    .bar3 {
         display: block;
         width: 25px;
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background-color: white;
+        animation: bar3 1s 3s forwards;
+        opacity: 0;
+    }
+    @keyframes bar3 {
+       from{opacity:0;transform: translateY(-50px);}
+       to{opacity:1;transform: translateY(0);} 
     }
     
     .navMenu {
@@ -364,6 +398,7 @@
         .hamburger {
             display: block;
             cursor: pointer;
+            transition: 0.3;
         }
         .hamburgerLineSecond{
             display: block;
@@ -377,14 +412,19 @@
         }
     
         .hamburgerLineFirst{
-            display: block;
+        display: block;
         width: 25px;
         height: 3px;
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
         background-color: white;
-            transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+        }
+        @keyframes navitemActive {
+          0%{transform:translateY(-5px)} 
+          50%{transform:translateY(0px)}
+          100%{transform:translateY(-5px)} 
         }
     
         .hamburgerLineThird{

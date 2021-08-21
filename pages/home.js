@@ -7,7 +7,12 @@ import Link from 'next/link';
 
 export default function Home() {
     const [active, setActive] = useState(false);
+    const [animationBurger, setAnimationBurger] = useState(false);
     const router = useRouter();
+    function toggleClick() {
+        setActive(!active);
+        setAnimationBurger(false);
+    }
     return (
         <div className={styles.page}>
             <div className={styles.fixedNav}>
@@ -45,10 +50,10 @@ export default function Home() {
                                     </div>
                                 </li>
                             </ul>
-                            <div onClick={() => setActive(!active)} className={active ? styles.hamburgerActive : styles.hamburger}>
-                                <span className={active ? styles.hamburgerLineFirst : styles.bar}></span>
-                                <span className={active ? styles.hamburgerLineSecond : styles.bar}></span>
-                                <span className={active ? styles.hamburgerLineThird : styles.bar}></span>
+                            <div onClick={toggleClick} className={active ? styles.hamburgerActive : styles.hamburger}>
+                                <span className={active ? styles.hamburgerLineFirst : styles.bar1}></span>
+                                <span className={active ? styles.hamburgerLineSecond : styles.bar2}></span>
+                                <span className={active ? styles.hamburgerLineThird : styles.bar3}></span>
                             </div>
                         </nav>
                     </header>

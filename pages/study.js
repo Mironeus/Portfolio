@@ -15,6 +15,7 @@ import Link from 'next/link';
 import { FigmaImage, FigmaTitle, FigmaSubTitle, FigmaMainText, FigmaFooter } from "../scrollAnimation/figmaScroll";
 import { UdemyOneImage, UdemyOneTitle, UdemyOneSubTitle, UdemyOneMainText } from "../scrollAnimation/udemyOneScroll";
 import { UdemyTwoImage, UdemyTwoTitle, UdemyTwoSubTitle, UdemyTwoMainText } from "../scrollAnimation/udemyTwoScroll";
+import { HistoryCarousel, HistoryTitle, HistorySubTitle, HistoryMainText } from "../scrollAnimation/historyScroll";
 
 
 const useStyles = makeStyles({
@@ -43,17 +44,23 @@ export default function FirstStudy() {
                 >
                     <Grid item lg={5} md={6}>
                         <main className={styles.historyMainContent}>
-                            <div className={styles.historySubTitle}>
-                                Немного предыстории.
-                            </div>
-                            <blockquote className={styles.historyQuote}>
-                                <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
-                                <cite>- Джон Локк<span className={styles.udemyOneAnchor} name='start'></span> </cite>
-                            </blockquote>
-                            <div className={styles.historyText}>
-                                Мой путь начался с просьбы сделать презентацию на моей текущей работе.<br></br>
-                                Я изучил <span className={styles.historyFirstSpan}>Power Point, Photoshop</span>  и также узнал, что такое<span className={styles.historySecondSpan}> Типографика</span> и насколько это важный элемент в дизайне.
-                            </div>
+                            <HistoryTitle>
+                                <div className={styles.historySubTitle}>
+                                    Немного предыстории.
+                                </div>
+                            </HistoryTitle>
+                            <HistorySubTitle>
+                                <blockquote className={styles.historyQuote}>
+                                    <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
+                                    <cite>- Джон Локк<span className={styles.udemyOneAnchor} name='start'></span> </cite>
+                                </blockquote>
+                            </HistorySubTitle>
+                            <HistoryMainText>
+                                <div className={styles.historyText}>
+                                    Мой путь начался с просьбы сделать презентацию на моей текущей работе.<br></br>
+                                    Я изучил <span className={styles.historyFirstSpan}>Power Point, Photoshop</span>  и также узнал, что такое<span className={styles.historySecondSpan}> Типографика</span> и насколько это важный элемент в дизайне.
+                                </div>
+                            </HistoryMainText>
                         </main>
                         <div className={styles.historyScrollFooterAlign}>
                             <div className={styles.historyScrollFooter}>
@@ -63,215 +70,217 @@ export default function FirstStudy() {
                         </div>
                     </Grid>
 
-                    <Grid item lg={6} md={6} xs={10} sm={7} >
-                        <div className={styles.carousel}>
-                            <Carousel
-                                variant='dark'
-                                indicators='true'
-                            >
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/archive.jpg"
-                                        alt="First slide"
-                                    />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/1.jpg"
-                                        alt="First slide"
-                                    />
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            GUNTER® - Пневматические пистолеты и аксессуары
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/2.jpg"
-                                        alt="Second slide"
-                                    />
+                    <Grid item lg={6} md={6} xs={11} sm={7} >
+                        <HistoryCarousel>
+                            <div className={styles.carousel}>
+                                <Carousel
+                                    variant='dark'
+                                    indicators='true'
+                                >
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/archive.jpg"
+                                            alt="First slide"
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/1.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/2.jpg"
+                                            alt="Second slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            GUNTER® - Пневматические пистолеты и аксессуары
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/3.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/3.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            GUNTER® - Пневматические пистолеты и аксессуары
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/4.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/4.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            GUNTER® - Пневматические пистолеты и аксессуары
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/5.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/5.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            GUNTER® - Пневматические пистолеты и аксессуары
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/6.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/6.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Desperado® - мачете
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/7.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Desperado® - мачете
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/7.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Desperado® - мачете
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/8.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Desperado® - мачете
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/8.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Desperado® - мачете
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/9.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Desperado® - мачете
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/9.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Desperado® - мачете
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/10.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Desperado® - мачете
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/10.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Desperado® - мачете
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/11.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Desperado® - мачете
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/11.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Y-Shot® - Рогатки и духовые трубки
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/12.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Y-Shot® - Рогатки и духовые трубки
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/12.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Y-Shot® - Рогатки и духовые трубки
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/13.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Y-Shot® - Рогатки и духовые трубки
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/13.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Y-Shot® - Рогатки и духовые трубки
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/14.jpg"
-                                        alt="Third slide"
-                                    />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Y-Shot® - Рогатки и духовые трубки
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/14.jpg"
+                                            alt="Third slide"
+                                        />
 
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Y-Shot® - Рогатки и духовые трубки
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="/images/oldpres/15.jpg"
-                                        alt="Third slide"
-                                    />
-                                    <Carousel.Caption >
-                                        <div className={styles.carouselText}>
-                                            Y-Shot® - Рогатки и духовые трубки
-                                        </div>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                            </Carousel>
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Y-Shot® - Рогатки и духовые трубки
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                            className="d-block w-100"
+                                            src="/images/oldpres/15.jpg"
+                                            alt="Third slide"
+                                        />
+                                        <Carousel.Caption >
+                                            <div className={styles.carouselText}>
+                                                Y-Shot® - Рогатки и духовые трубки
+                                            </div>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                </Carousel>
 
-                        </div >
+                            </div >
+                        </HistoryCarousel>
                     </Grid>
 
                 </Grid>
@@ -405,7 +414,7 @@ export default function FirstStudy() {
                             </div>
                         </main>
                     </Grid>
-                    <Grid item md={6} xl={5} xs={7}>
+                    <Grid item md={6} xl={5} xs={11}>
                         <UdemyOneImage>
                             <img src="/images/sertificate_1.png" alt="David Abramov" className={styles.udemyOneImage} />
                         </UdemyOneImage>
@@ -460,7 +469,7 @@ export default function FirstStudy() {
                             </div>
                         </div>
                     </Grid>
-                    <Grid item xl={6} md={8} lg={6} xs={7} >
+                    <Grid item xl={6} md={8} lg={6} xs={11} >
                         <UdemyTwoImage>
                             <img
                                 className={styles.udemyTwoImageForVerticalPhoneSize}

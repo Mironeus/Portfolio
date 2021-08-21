@@ -23,7 +23,7 @@
     background-size: cover;
     height: 100vh;
     background-position: center;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 .page a{
   color: white;

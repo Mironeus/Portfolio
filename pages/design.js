@@ -6,7 +6,9 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Design() {
     return (
         <div className={styles.page}>
-            <MainNavbar></MainNavbar>
+            <div className={styles.fixedNav}>
+                <MainNavbar></MainNavbar>
+            </div>
             <Grid
                 container
                 direction='raw'

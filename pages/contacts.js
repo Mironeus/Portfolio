@@ -6,7 +6,9 @@ export default function Contacts() {
     return (
         <>
             <div className={styles.page}>
-                <MainNavbar></MainNavbar>
+                <div className={styles.fixedNav}>
+                    <MainNavbar></MainNavbar>
+                </div>
                 <div className={styles.mainContent}>
                     <Grid
                         className={styles.text}

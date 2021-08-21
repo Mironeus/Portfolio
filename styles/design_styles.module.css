@@ -4,6 +4,13 @@
     height: 100vh;
     overflow-x: hidden;
 }
+.fixedNav {
+    z-index: 999999;
+   position: fixed;
+   width: 100%;
+   opacity: 0.95;
+   top:0
+}
 
 .quote {
     padding: 30px 30px 0px 30px;

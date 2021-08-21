@@ -7,6 +7,14 @@
     .page a {
         color: white;
     }
+    .fixedNav {
+        z-index: 999999;
+       position: fixed;
+       width: 100%;
+       opacity: 0.95;
+       top:0
+    }
+    
 
     .mainHomeContent{
         display: flex;

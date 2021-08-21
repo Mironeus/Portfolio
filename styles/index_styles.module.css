@@ -155,9 +155,6 @@
  
    /* vertical MOBILE SIZING */
    @media only screen and (max-width: 414px) {
-     .page{
-       height: 80vh;
-     }
      .welcome{
        display: flex;
        flex-direction: column;
@@ -191,8 +188,14 @@
      }
    }
 
-   /* horizontal MOBILE SIZING and ipad */
-   @media only screen and (min-width: 667px) and (max-width:736px) {
+   /* vertical iphone X SIZING */
+   @media only screen and (min-width: 375px) and (max-width: 375px){
+     .page{
+       height: 86vh;
+     }
+   }
+   /* horizontal iphone X SIZING */
+   @media only screen and (min-width: 812px) and (max-width: 812px){
     .mainButton{
       position: relative;
       font-size: 14px;
@@ -208,12 +211,60 @@
       font-size: 20px;
     }
     .welcome{
-      font-size: 50px;
+      font-size: 40px;
+    }
+   }
+   /* horizontal MOBILE SIZING and ipad */
+   @media only screen and (min-width: 667px) and (max-width: 736px) {
+    .mainButton{
+      position: relative;
+      font-size: 14px;
+      position: relative;
+      animation: mobileButton 2s forwards;
+      transform:scale(0.0025);
+    }
+    @keyframes mobileButton {
+      from {transform: scale(0.0025);}
+      to {transform: scale(1);}
+    }
+    .myName{
+      font-size: 20px;
+    }
+    .welcome{
+      font-size: 40px;
     }
    }
 
    /* vertical sizing for ipad */
-  @media only screen and (min-width:768px) and (max-width:1024px) {
+  @media only screen and (min-width:768px) and (max-width:768px) {
+    .welcome{
+      /* display: flex;
+      flex-direction: column; */
+      font-size: 60px;
+      padding: 25px  25px 0px 25px;
+      font-weight: 200;
+    }
+    .myName{
+      font-size: 30px;
+    }
+  .logo{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+    .mainButton{
+      animation: none;
+      font-size: 40px;
+      animation: mobileButton 2s forwards;
+      transform:scale(0.0025);
+    }
+    @keyframes mobileButton {
+      from {transform: scale(0.0025);}
+      to {transform: scale(1);}
+    }
+  }
+
+  /* vertical sizing for ipad Pro */
+  @media only screen and (min-width:1024px) and (max-width:1024px) {
     .welcome{
       /* display: flex;
       flex-direction: column; */

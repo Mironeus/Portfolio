@@ -34,7 +34,7 @@ export default function Design() {
                 justifyContent='center'
                 alignItems='center'
             >
-                <Grid item md={11} sm={12} lg={11} xl={7}>
+                <Grid item md={9} sm={12} lg={11} xl={7}>
                     <div className={styles.bottomText}>
                         Представляю вашему вниманию  коллекцию своих работ
                     </div>

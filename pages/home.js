@@ -72,7 +72,7 @@ export default function Home() {
                             src="/images/portret.jpg" />
 
                     </Grid>
-                    <Grid item md={10} lg={6} sm={10} className={styles.textBox}>
+                    <Grid item md={6} lg={6} sm={10} className={styles.textBox}>
                         <div className={styles.title}>
                             PORTFOLIO
                         </div>

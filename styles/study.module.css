@@ -14,7 +14,7 @@
 
 /* HISTORY BLOCK */
 .historyBlock{
-    margin-top: 60px;
+    margin-top: 120px;
 }
 .historySubTitle {
     position: relative;
@@ -541,6 +541,24 @@
 
 /* horizontal iPAD SIZING */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+.historyMainContent{
+    margin-top: -10px;
+    padding: 20px;
+}
+.historyQuote{
+
+    font-size: 12px;
+}
+.historyBlock{
+    padding: 0px;
+}
+
+.historyScrollFooter{
+    display: none;
+}
+.historyScrollIcon{
+    display: none;
+}
     .figmaCardImageForVerticalPhone{
         display: none;
     }
@@ -564,22 +582,7 @@
     .figmaFooterText{
         font-size: 17px;
     }
-    .historyQuote{
-        font-size: 12px;
-    }
-    .historyMainContent{
-        margin-top: -70px;
-    }
-    
-    .historyScrollFooter{
-        display: initial;
-        margin-left: 40px;
-        font-size: 15px;
-    }
-    .historyScrollIcon{
-        font-size: 20px;
-        margin-left: 10px;
-    }
+   
     .figmaBlock{
         margin-top: 150px;
         margin: 15px;
@@ -593,12 +596,9 @@
         margin-left: 10px;
     }
     .figmaScrollFooterAlign{
-      display: initial;
+      display: none;
     }
-    .carousel{
-        margin-bottom: 80px;
-        margin-right: 40px;
-    }
+  
     .figmaMainText{
         margin-bottom: -70px;
     }
@@ -606,7 +606,7 @@
         font-size: 15px;
     }
     .udemyOneScrollFooter{
-        flex-direction: row;
+        display: none;
     }
     .udemyOneScrollIcon{
         font-size: 20px;
@@ -631,16 +631,15 @@
         top: 0px;
     }
     .udemyTwoScrollFooterAlign{
-        display: initial;
+        display: none;
     }
     .udemyTwoMainText{
         font-size: 15px;
     }
     .udemyTwoScrollFooter{
-        flex-direction: row;
+        display: none;
     }
     .udemyTwoScrollIcon{
-        font-size: 20px;
-        margin-right: 10px;
+        display: none;
     }
 }

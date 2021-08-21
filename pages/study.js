@@ -32,7 +32,7 @@ export default function FirstStudy() {
 
     return (
         <div className={styles.page}>
-            {/* /* HISTORY BLOCK */}
+            { /* HISTORY BLOCK */}
             <div className={styles.fixedNav}>
                 <MainNavbar></MainNavbar>
             </div>
@@ -45,7 +45,7 @@ export default function FirstStudy() {
                     <Grid item lg={5} md={6}>
                         <main className={styles.historyMainContent}>
                             <HistoryTitle>
-                                <div className={styles.historySubTitle}>
+                                <div className={styles.historySubTitle} name='top'>
                                     Немного предыстории.
                                 </div>
                             </HistoryTitle>

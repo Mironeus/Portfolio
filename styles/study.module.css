@@ -2,6 +2,7 @@
     background-image: url(../public/images/background_study_1.jpg);
     background-size: cover;
     height: auto;
+    overflow-x: hidden;
 }
 .fixedNav {
     z-index: 99999999;

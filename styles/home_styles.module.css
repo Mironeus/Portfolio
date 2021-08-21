@@ -212,7 +212,7 @@
         margin: 5px auto;
         transition: 0.3s;
         background-color: white;
-        animation: bar1 3s 3s forwards;
+        animation: bar1 2s 3s forwards;
         opacity: 0;
     }
     @keyframes bar1 {
@@ -226,7 +226,7 @@
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background-color: white; 
-        animation: bar2 2s 3s forwards;
+        animation: bar2 1s 3s forwards;
         opacity: 0;
     }
     @keyframes bar2 {
@@ -240,7 +240,7 @@
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background-color: white;
-        animation: bar3 1s 3s forwards;
+        animation: bar3 0.5s 3s forwards;
         opacity: 0;
     }
     @keyframes bar3 {

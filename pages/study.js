@@ -31,12 +31,11 @@ export default function FirstStudy() {
 
     return (
         <div className={styles.page}>
-
             {/* /* HISTORY BLOCK */}
+            <div className={styles.fixedNav}>
+                <MainNavbar></MainNavbar>
+            </div>
             <div className={styles.historyBlock}>
-                <div className={styles.fixedNav}>
-                    <MainNavbar></MainNavbar>
-                </div>
                 <Grid
                     container
                     justifyContent='center'

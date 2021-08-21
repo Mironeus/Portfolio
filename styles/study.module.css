@@ -1,16 +1,14 @@
 .page {
     background-image: url(../public/images/background_study_1.jpg);
     background-size: cover;
-    height: auto;
     overflow-x: hidden;
 }
 .fixedNav {
-    z-index: 99999999;
-    opacity: 0.95;
-    position: fixed;
-    width: 100%;
-    position: -webkit-sticky;
-    top: 0px;
+    z-index: 999999;
+   position: fixed;
+   width: 100%;
+   opacity: 0.95;
+   top:0
 }
 
 /* HISTORY BLOCK */
@@ -93,7 +91,7 @@
 }
 
 .historyMainContent {
-    padding: 40px;
+    padding: 20px;
 }
 .historyScrollFooterAlign{
     display: flex;
@@ -354,7 +352,7 @@
 }
 
 .udemyTwoImage {
-    width: 100%;
+    width: 80%;
 }
 .udemyTwoFooterNav {
     display: flex;

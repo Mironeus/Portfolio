@@ -4,7 +4,7 @@
     overflow-x: hidden;
 }
 .fixedNav {
-    z-index: 999999;
+   z-index: 999999;
    position: fixed;
    width: 100%;
    opacity: 0.95;
@@ -423,12 +423,6 @@
     }
     .udemyTwoMainContent{
         margin-Top: -100px;
-    }
-    .stickyNav {
-        opacity: 0.95;
-        width: 100%;
-        position: fixed;
-        top: 0px;
     }
     .udemyTwoScrollFooterAlign{
         display: none;

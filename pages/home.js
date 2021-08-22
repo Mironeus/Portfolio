@@ -77,9 +77,9 @@ export default function Home() {
                             PORTFOLIO
                         </div>
                         <div className={styles.welcome}>
-                            Привет.
+                            Hi..
                         </div>
-                        <div className={styles.text}> Меня зовут Абрамов Давид и я начинающий web разработчик.  <br />Этот сайт я создал,чтобы рассказать о себе и своих знаниях и возможно пробудить в вас заинтересованность сотрудничества со мной над вашим проектом.</div>
+                        <div className={styles.text}> My name is David Abramov and i'm beginner in web dev.  <br />This portfolio-site i created to tell about myself and my knowledges and possibly arouse your interest in cooperating with me on your projects.</div>
 
                     </Grid>
                 </Grid>

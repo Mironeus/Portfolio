@@ -46,19 +46,19 @@ export default function FirstStudy() {
                         <main className={styles.historyMainContent}>
                             <HistoryTitle>
                                 <div className={styles.historySubTitle} name='top'>
-                                    Немного предыстории.
+                                    How to begin.
                                 </div>
                             </HistoryTitle>
                             <HistorySubTitle>
                                 <blockquote className={styles.historyQuote}>
-                                    <p >"Великое искусство научиться многому - это браться сразу за немногое".</p>
-                                    <cite>- Джон Локк<span className={styles.udemyOneAnchor} name='start'></span> </cite>
+                                    <p >"Education is not the filling of a pail, but the lighting of a fire."</p>
+                                    <cite>- William Butler Yeats<span className={styles.udemyOneAnchor} name='start'></span> </cite>
                                 </blockquote>
                             </HistorySubTitle>
                             <HistoryMainText>
                                 <div className={styles.historyText}>
-                                    Мой путь начался с просьбы сделать презентацию на моей текущей работе.<br></br>
-                                    Я изучил <span className={styles.historyFirstSpan}>Power Point, Photoshop</span>  и также узнал, что такое<span className={styles.historySecondSpan}> Типографика</span> и насколько это важный элемент в дизайне.
+                                    My path began from a task to create a presentation in company of my current job.<br></br>
+                                    I learned <span className={styles.historyFirstSpan}>Power Point, Photoshop</span> and realized, that <span className={styles.historySecondSpan}> typography</span> is very important piece of good web design.
                                 </div>
                             </HistoryMainText>
                         </main>
@@ -92,7 +92,7 @@ export default function FirstStudy() {
                                         />
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                                GUNTER® - Air guns and accessories
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -105,7 +105,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                                GUNTER® - Air guns and accessories
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -118,7 +118,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                                GUNTER® - Air guns and accessories
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -131,7 +131,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                                GUNTER® - Air guns and accessories
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -144,7 +144,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                GUNTER® - Пневматические пистолеты и аксессуары
+                                                GUNTER® - Air guns and accessories
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -157,7 +157,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Desperado® - мачете
+                                                Desperado® - machete
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -170,7 +170,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Desperado® - мачете
+                                                Desperado® - machete
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -183,7 +183,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Desperado® - мачете
+                                                Desperado® - machete
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -196,7 +196,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Desperado® - мачете
+                                                Desperado® - machete
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -209,7 +209,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Desperado® - мачете
+                                                Desperado® - machete
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -222,7 +222,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Y-Shot® - Рогатки и духовые трубки
+                                                Y-Shot® - Slingshots and wind pipes
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -235,7 +235,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Y-Shot® - Рогатки и духовые трубки
+                                                Y-Shot® - Slingshots and wind pipes
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -248,7 +248,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Y-Shot® - Рогатки и духовые трубки
+                                                Y-Shot® - Slingshots and wind pipes
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -261,7 +261,7 @@ export default function FirstStudy() {
 
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Y-Shot® - Рогатки и духовые трубки
+                                                Y-Shot® - Slingshots and wind pipes
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -273,7 +273,7 @@ export default function FirstStudy() {
                                         />
                                         <Carousel.Caption >
                                             <div className={styles.carouselText}>
-                                                Y-Shot® - Рогатки и духовые трубки
+                                                Y-Shot® - Slingshots and wind pipes
                                             </div>
                                         </Carousel.Caption>
                                     </Carousel.Item>
@@ -301,7 +301,7 @@ export default function FirstStudy() {
                                     <CardContent>
                                         <ThemeProvider theme={theme}>
                                             <Typography gutterBottom variant="h5" component="h2" >
-                                                Макет этого сайта на Figma
+                                                THE LAYOUT OF THIS PROJECT.
                                             </Typography>
                                         </ThemeProvider>
                                     </CardContent>
@@ -325,17 +325,17 @@ export default function FirstStudy() {
                             </FigmaTitle>
                             <div className={styles.figmaText}>
                                 <FigmaSubTitle>
-                                    <div className={styles.figmaTextTitle}>Новое слово в моем лексиконе.</div>
+                                    <div className={styles.figmaTextTitle}>A new word in my vocabulary.</div>
                                 </FigmaSubTitle>
                                 <FigmaMainText>
                                     <div className={styles.figmaMainText}>
-                                        Когда я познакомился с <span className={styles.figmaSecondSpan} >FIGMA</span>  я понял, что такое удобное создание макетов и презентаций с безопасным облачным хранением и возможностью вернуться к своему проекту на любом компьютере. Набор инструментов прост и крайне удобен, что позволяет быстро и качественно создавать макеты.
+                                        When I met <span className={styles.figmaSecondSpan} >FIGMA</span>  I realized how to create layouts and presentations easily with secure cloud storage and the ability 'continue to work' on any computer. The set of tools is simple and extremely convenient, which allows you to quickly and efficiently create layouts.
                                     </div>
                                 </FigmaMainText>
                                 <FigmaFooter>
                                     <div className={styles.figmaFooterText}>
                                         <div className={styles.figmaSubTextTitle}>DANGER!</div>
-                                        МАКЕТ ЭТОГО ПРОЕКТА СОЗДАН НА <span className={styles.figmaSecondSpan}>FIGMA</span>.
+                                        <span className={styles.figmaSecondSpan}> THE LAYOUT OF THIS PROJECT CREATED IN FIGMA</span>.
                                     </div>
                                 </FigmaFooter>
                                 <div className={styles.figmaScrollFooterAlign}>
@@ -355,7 +355,7 @@ export default function FirstStudy() {
                                     <CardContent>
                                         <ThemeProvider theme={theme}>
                                             <Typography gutterBottom variant="h5" component="h2" >
-                                                Макет этого сайта на Figma
+                                                THE LAYOUT OF THIS PROJECT.
                                             </Typography>
                                         </ThemeProvider>
                                     </CardContent>
@@ -387,21 +387,18 @@ export default function FirstStudy() {
                             </UdemyOneTitle>
                             <div className={styles.udemyOneText}>
                                 <UdemyOneSubTitle>
-                                    <div className={styles.udemyOneTextTitle}> <span className={styles.udemyOneSpanTitle}><span className={styles.udemyOneSpanSubTitle}>Курс</span> The Web Developer BootCamp 2021</span> </div>
+                                    <div className={styles.udemyOneTextTitle}> <span className={styles.udemyOneSpanTitle}> The Web Developer BootCamp 2021</span> <span className={styles.udemyOneSpanSubTitle}>course</span></div>
                                 </UdemyOneSubTitle>
                                 <UdemyOneMainText>
                                     <div className={styles.udemyOneMainText}>
-                                        Вот и пришел момент, когда я задумался о создании сайтов и начал активно искать курсы.
-                                        Конечно я выбрал <span className={styles.udemyOneSpan}>FRONTEND</span> направление, так как мне ближе интерфейсы и визуальное проектирование.
-                                        Для обучения я выбрал ресурс <span className={styles.udemyOneSpan}>Udemy</span>.
-                                        А моим ментором стал - <span className={styles.udemyOneSpan}>Colt Steele.</span>
-                                        Прекрасный человек, который доступно объяснил очень много вещей. <br />
-                                        К сожалению, наврятли он знает о моём существовании.😂)))<br />
+                                        So the moment came when I thought about creating sites and began to actively search for courses. Of course, I chose the <span className={styles.udemyOneSpan}>FRONTEND</span> direction, cause interfaces and visual design are closer to me. For learning, I chose the <span className={styles.udemyOneSpan}>Udemy</span>.
+                                        And my mentor was <span className={styles.udemyOneSpan}>Colt Steele - </span>
+                                        a wonderful person who explained a lot of things in an accessible way.<br />
                                         <span className={styles.udemyOneAnchor} name='udemyOne'></span>
-                                        Курс содержал огромное количество новой информации, но было интересно. Мы изучали базовые основы - <span className={styles.udemyOneSpan}>HTML, CSS, JS</span>. А в финальном проекте использовали <span className={styles.udemyOneSpan}>Mongo c Mongoose и Express</span> на бэке и деплоили этот багаж знаний на <span className={styles.udemyOneSpan}>Heroku</span>. Стоит заметить, что мы не использовали фреймворки - проcто MVC и магия EJS. Также поработали с  API Mapbox и большим количеством утилит (passport, joi, sanitize-html и....много еще чего).
+                                        The course contained a wealth of new information and it was interesting. We learned the basics of - <span className={styles.udemyOneSpan}>HTML, CSS, JS</span>. And in the final project, we used <span className={styles.udemyOneSpan}>Mongo c Mongoose и Express</span> on the back-end and deployed this knowledge base on <span className={styles.udemyOneSpan}>Heroku</span>. We did not use frameworks - just MVC and EJS magic. We also worked with the Mapbox API and a lot of utilities (passport, joi, sanitize-html and .... a lot more).
                                         <br />
                                         <div className={styles.udemyOneResult}>
-                                            <span className={styles.udemyOneSpan}>ИТОГ:</span>  Общее понимание <span className={styles.udemyOneSpan}>FULLSTACK</span> разработки, осознание, что фреймворки придумали не просто так и радость, что остался жив после всего этого😁.
+                                            <span className={styles.udemyOneSpan}>VERDICT:</span>  General understanding of <span className={styles.udemyOneSpan}>FULLSTACK</span> development.
                                         </div>
                                     </div>
                                 </UdemyOneMainText>
@@ -446,16 +443,16 @@ export default function FirstStudy() {
                             </UdemyTwoTitle>
                             <div className={styles.udemyTwoText}>
                                 <UdemyTwoSubTitle>
-                                    <div className={styles.udemyTwoTextTitle}> <span className={styles.udemyTwoSpanTitle}><span className={styles.udemyTwoSpanSubTitle}>Курс</span> The Modern React Bootcamp (Hooks, Context, NextJS, Router)</span> </div>
+                                    <div className={styles.udemyTwoTextTitle}> <span className={styles.udemyTwoSpanTitle}>The Modern React Bootcamp (Hooks, Context, NextJS, Router)</span> <span className={styles.udemyTwoSpanSubTitle}>course</span> </div>
                                 </UdemyTwoSubTitle>
                                 <UdemyTwoMainText>
                                     <div className={styles.udemyTwoMainText}>
-                                        После окончания курсов, мне стало понятно, что необходимо изучить хотя-бы один фреймворк, так как без них сейчас никуда. Я выбрал<span className={styles.udemyTwoSpan} name='udemyTwo'> React</span>, так он невероятно популярен, имеет множество различных дополнительных библиотек и большое комьюнити.
-                                        Я познакомился с <span className={styles.udemyTwoSpan}>компонентами, пропсами, хуками, стейтами, JSX</span>. Мы билдили много небольших проектов, которые помогали закрепить навыки. Также познакомились с <span className={styles.udemyTwoSpan}>React-Router</span> и как строить маршруты. Также коснулись стейт менеджмента <span className={styles.udemyTwoSpan}>(useReducer & useContext)</span>. Ближе к концу курса познакомились с прекрасным фреймворком <span className={styles.udemyTwoSpan}>NEXT.js (basic routing, fetching data, Link Component)</span>, который произвёл на меня впечатление, поэтому первый проект я решил строить именно на нём.
-                                        Приятным бонусом стал ознакомительный мини курс по Webpack.
+                                        After completing <span className={styles.udemyTwoCourseText}>The Web Developer BootCamp 2021 course</span>, it became clear to me that it's necessary to know at least one framework. I choose<span className={styles.udemyTwoSpan} name='udemyTwo'> React</span>, because it is incredibly popular, has many different libraries and a large community.
+                                        This course introduced me to <span className={styles.udemyTwoSpan}>components, props, hooks, states, JSX</span>. We built a lot of small projects. Worked with <span className={styles.udemyTwoSpan}>React-Router</span> and build routes and touched upon the state management <span className={styles.udemyTwoSpan}>(useReducer & useContext)</span>. In the end of this course, we got introduced with the excellent framework<span className={styles.udemyTwoSpan}>NEXT.js (basic routing, fetching data, Link Component)</span>, which impressed me, so I decided to build the first project on it.
+                                        <span className={styles.udemyTwoCourseText}> The Webpack mini course was a nice bonus.</span>
                                         <br />
                                         <div className={styles.udemyTwoResult}>
-                                            <span className={styles.span}>ИТОГ:</span>  Общее понимание библиотеки <span className={styles.udemyTwoSpan}>React</span>, знакомство с фреймворком <span className={styles.udemyTwoSpan}>Next.js</span>, знакомство с <span className={styles.udemyTwoSpan}>Webpack</span>.
+                                            <span className={styles.udemyTwoSpan}>VERDICT:</span>  General understanding <span className={styles.udemyTwoSpan}>React</span> library, basics understanding of <span className={styles.udemyTwoSpan}>Next.js</span> framework, introducing <span className={styles.udemyTwoSpan}>Webpack</span>.
 
                                         </div>
                                     </div>

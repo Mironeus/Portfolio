@@ -23,7 +23,7 @@
 }
 .historyText {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .historyFirstSpan {
     color: #ED1C24;
@@ -290,6 +290,9 @@
     background-image: url(../public/images/background_study_3.jpg);
     background-size: cover;
     height: 100vh
+}
+.udemyTwoCourseText{
+    font-style: italic;
 }
 .udemyTwoSubTitle {
     font-size: 35px;

@@ -36,7 +36,7 @@ export default function Design() {
             >
                 <Grid item md={9} sm={12} lg={11} xl={7}>
                     <div className={styles.bottomText}>
-                        Представляю вашему вниманию  коллекцию своих работ
+                        Let me show you collection of my design works.
                     </div>
                     <div className={styles.carousel}>
                         <Carousel

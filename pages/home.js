@@ -19,7 +19,7 @@ export default function Home() {
           <header className={styles.header}>
             <nav className={styles.navbar}>
               <div className={styles.navLogo}>
-                <Link href="/"> Portfolio 2021</Link>
+                <Link href="/"> Portfolio 2022</Link>
               </div>
               <ul className={active ? styles.navMenuActive : styles.navMenu}>
                 <li className={styles.navItemActive}>

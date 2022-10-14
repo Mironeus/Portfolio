@@ -14,7 +14,9 @@ export default function MainNavbar() {
         <header className={styles.header}>
           <nav className={styles.navbar}>
             <div className={styles.navLogo}>
-              <Link href="/"></Link>
+              <Link href="/">
+                <a>Portfolio 2022</a>
+              </Link>
             </div>
             <ul className={active ? styles.navMenuActive : styles.navMenu}>
               <li

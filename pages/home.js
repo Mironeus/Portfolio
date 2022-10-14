@@ -131,9 +131,6 @@ export default function Home() {
               This portfolio-site i created to tell about myself and my
               knowledges and possibly arouse your interest in cooperating with
               me on your projects.
-              <br />
-              <br />
-              <span styles="font-weight:bold">About me:</span>
             </div>
           </Grid>
         </Grid>

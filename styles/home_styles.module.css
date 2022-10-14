@@ -302,7 +302,7 @@
   position: relative;
   margin-left: 4rem;
   transition: 0.25s all;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 .navItem:hover {

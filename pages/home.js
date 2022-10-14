@@ -132,14 +132,12 @@ export default function Home() {
               knowledges and possibly arouse your interest in cooperating with
               me on your projects.
               <br />
-              About me: Open to communication, willing to learn new approaches
-              and technologies and apply them in practice. Trying to be involved
-              in the project and understand the needs of the business in order
-              to anticipate possible change requests from clients. I am very
-              passionate about rafting and playing guitar in front of a
-              campfire. My little dream is to raft down the Amazon River and
-              learn more about the indigenous people and culture of these
-              places.
+              <br />
+              <span styles="font-weight:bold">About me:</span>
+              <br /> Open to communication, willing to learn new approaches and
+              technologies and apply them in practice. Trying to be involved in
+              the project and understand the needs of the business in order to
+              anticipate possible change requests from clients.
             </div>
           </Grid>
         </Grid>

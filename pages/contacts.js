@@ -22,14 +22,14 @@ export default function Contacts() {
                 <span className={styles.span}>
                   EMAIL: <br />{" "}
                 </span>{" "}
-                <a href="mailto:sendtoabramov@gmail.com">
-                  sendtoabramov@gmail.com
+                <a href="mailto:writetoabramov@gmail.com">
+                  writetoabramov@gmail.com
                 </a>
                 <br />
                 <span className={styles.span}>
                   GIT: <br />{" "}
                 </span>
-                <a href="https://github.com/abramov-david">
+                <a href="https://github.com/abramov-david?tab=repositories">
                   {" "}
                   github.com/abramov-david
                 </a>
@@ -44,16 +44,14 @@ export default function Contacts() {
                 <br />
                 <span className={styles.span}>
                   PHONE{" "}
-                  <span className={styles.phoneCity}>
-                    (Russia,Saint-Petersburg)
-                  </span>
+                  <span className={styles.phoneCity}>(Serbia,Novi Sad)</span>
                   : <br />{" "}
                 </span>{" "}
-                <a href="tel:+7-904-614-93-29">+7-904-614-93-29</a>
+                <a href="tel:+7-904-614-93-29">+381 637 699 192</a>
                 <br />
               </div>
               <div className={styles.copyRight}>
-                © 2021 David Abramov All Rights Reserved
+                © 2022 David Abramov All Rights Reserved
               </div>
             </Grid>
           </Grid>

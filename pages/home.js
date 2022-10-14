@@ -135,12 +135,12 @@ export default function Home() {
               <br />
               <span styles="font-weight:bold">About me:</span>
               <br />{" "}
-              <span styles="font-size:15px font-weight:normal">
+              <p styles="font-size:15px">
                 Open to communication, willing to learn new approaches and
                 technologies and apply them in practice. Trying to be involved
                 in the project and understand the needs of the business in order
                 to anticipate possible change requests from clients.
-              </span>
+              </p>
             </div>
           </Grid>
         </Grid>

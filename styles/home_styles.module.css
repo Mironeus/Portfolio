@@ -320,7 +320,7 @@
   color: white;
   font-size: 1.1rem;
   font-weight: 400;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 .navLink:hover {

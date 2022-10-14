@@ -126,8 +126,12 @@ export default function Home() {
             <div className={styles.welcome}>Hi..</div>
             <div className={styles.text}>
               {" "}
-              My name is David Abramov and i'm frontend developer with about 2
-              years of expirience. <br />
+              My name is <span styles="font-weight:bold">
+                David Abramov
+              </span>{" "}
+              and i'm Frontend developer with about{" "}
+              <span styles="font-weight:bold">2 years of expirience.</span>{" "}
+              <br />
               This portfolio-site i created to tell about myself and my
               knowledges and possibly arouse your interest in cooperating with
               me on your projects.

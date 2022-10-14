@@ -15,7 +15,7 @@ export default function MainNavbar() {
           <nav className={styles.navbar}>
             <div className={styles.navLogo}>
               <Link href="/">
-                <a>Portfolio 2022</a>
+                <a>Portfolio 2023</a>
               </Link>
             </div>
             <ul className={active ? styles.navMenuActive : styles.navMenu}>

@@ -36,6 +36,11 @@
   transform: scale(0.001);
   margin-bottom: 40px;
 }
+
+.text span {
+  font-weight: bold;
+  font-size: 15px;
+}
 @keyframes text {
   from {
     opacity: 0.5;
